@@ -1445,7 +1445,7 @@
 				)
 			)
 		)
-		(symbol "MCU_Microchip_PIC32:PIC32MK1024GPD100-xPT"
+		(symbol "MCU_Microchip_PIC32:PIC32MX795F512L-80x-PF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1458,8 +1458,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "PIC32MK1024GPD100-xPT"
-				(at 6.35 -67.31 0)
+			(property "Value" "PIC32MX795F512L-80x-PF"
+				(at 6.35 -64.77 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1467,16 +1467,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-100_12x12mm_P0.4mm"
-				(at 0 -80.01 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MK_GP_MC_Familly_Datasheet_60001402G.pdf"
+			(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
 				(at 0 -76.2 0)
 				(effects
 					(font
@@ -1485,7 +1476,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MIPS MCU, 120MHz, 1MB Flash, 256KB RAM, 2.3-3.6V, USB, TQFP-100"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf"
+				(at 0 -76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MIPS MCU, 80MHz, 512KB Flash, 12KB Boot Flash, 128KB RAM, 2.3-3.6V, USB, CAN, Ethernet, TQFP-100"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1503,7 +1503,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TQFP*12x12mm*P0.4mm*"
+			(property "ki_fp_filters" "TQFP*14x14mm*P0.5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1512,10 +1512,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PIC32MK1024GPD100-xPT_0_1"
+			(symbol "PIC32MX795F512L-80x-PF_0_1"
 				(rectangle
 					(start -26.67 62.23)
-					(end 26.67 -64.77)
+					(end 26.67 -62.23)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1525,7 +1525,7 @@
 					)
 				)
 			)
-			(symbol "PIC32MK1024GPD100-xPT_1_1"
+			(symbol "PIC32MX795F512L-80x-PF_1_1"
 				(pin bidirectional line
 					(at -30.48 -53.34 0)
 					(length 3.81)
@@ -1545,9 +1545,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -30.48 0)
+					(at -30.48 -35.56 0)
 					(length 3.81)
-					(name "RG6/VBUSON2"
+					(name "RG6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1563,9 +1563,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 45.72 0)
+					(at -30.48 -7.62 0)
 					(length 3.81)
-					(name "RA10/TDO"
+					(name "RE4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1581,7 +1581,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -33.02 0)
+					(at -30.48 -38.1 0)
 					(length 3.81)
 					(name "RG7"
 						(effects
@@ -1599,7 +1599,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -35.56 0)
+					(at -30.48 -40.64 0)
 					(length 3.81)
 					(name "RG8"
 						(effects
@@ -1635,7 +1635,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -38.1 0)
+					(at -30.48 -43.18 0)
 					(length 3.81)
 					(name "RG9"
 						(effects
@@ -1653,7 +1653,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -68.58 90)
+					(at -2.54 -66.04 90)
 					(length 3.81)
 					(name "VSS"
 						(effects
@@ -1689,9 +1689,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -40.64 0)
+					(at -30.48 58.42 0)
 					(length 3.81)
-					(name "RG10"
+					(name "RA0/TMS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -7.62 0)
+					(at -30.48 -17.78 0)
 					(length 3.81)
 					(name "RE8"
 						(effects
@@ -1725,7 +1725,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -10.16 0)
+					(at -30.48 -20.32 0)
 					(length 3.81)
 					(name "RE9"
 						(effects
@@ -1761,9 +1761,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 40.64 0)
+					(at 30.48 38.1 180)
 					(length 3.81)
-					(name "RA12"
+					(name "RB5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1779,9 +1779,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 43.18 0)
+					(at 30.48 40.64 180)
 					(length 3.81)
-					(name "RA11"
+					(name "RB4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1797,9 +1797,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 58.42 0)
+					(at 30.48 43.18 180)
 					(length 3.81)
-					(name "RA0"
+					(name "RB3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1815,9 +1815,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 55.88 0)
+					(at 30.48 45.72 180)
 					(length 3.81)
-					(name "RA1"
+					(name "RB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1833,9 +1833,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 50.8 180)
+					(at 30.48 48.26 180)
 					(length 3.81)
-					(name "PGD3/RB0"
+					(name "PGEC1/RB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1851,9 +1851,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 48.26 180)
+					(at 30.48 50.8 180)
 					(length 3.81)
-					(name "PGC3/RB1"
+					(name "PGED1/RB0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1869,9 +1869,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 45.72 180)
+					(at 30.48 35.56 180)
 					(length 3.81)
-					(name "PGC1/RB2"
+					(name "PGEC2/RB6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1887,9 +1887,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 43.18 180)
+					(at 30.48 33.02 180)
 					(length 3.81)
-					(name "PGD1/RB3"
+					(name "PGED2/RB7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1905,9 +1905,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -33.02 180)
+					(at -30.48 38.1 0)
 					(length 3.81)
-					(name "RF9"
+					(name "RA9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1923,9 +1923,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -35.56 180)
+					(at -30.48 35.56 0)
 					(length 3.81)
-					(name "RF10"
+					(name "RA10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1941,9 +1941,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 50.8 0)
+					(at -30.48 -10.16 0)
 					(length 3.81)
-					(name "RA7/TCK"
+					(name "RE5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -68.58 90)
+					(at 2.54 -66.04 90)
 					(length 3.81)
 					(name "AVSS"
 						(effects
@@ -1995,9 +1995,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 30.48 0)
+					(at 30.48 30.48 180)
 					(length 3.81)
-					(name "RC0"
+					(name "RB8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2013,9 +2013,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 27.94 0)
+					(at 30.48 27.94 180)
 					(length 3.81)
-					(name "RC1"
+					(name "RB9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2031,9 +2031,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 25.4 0)
+					(at 30.48 25.4 180)
 					(length 3.81)
-					(name "RC2"
+					(name "RB10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2049,9 +2049,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 10.16 0)
+					(at 30.48 22.86 180)
 					(length 3.81)
-					(name "RC11"
+					(name "RB11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -68.58 90)
+					(at -2.54 -66.04 90)
 					(length 3.81) hide
 					(name "VSS"
 						(effects
@@ -2103,9 +2103,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -43.18 0)
+					(at -30.48 55.88 0)
 					(length 3.81)
-					(name "RG11"
+					(name "RA1/TCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -40.64 180)
+					(at 30.48 -55.88 180)
 					(length 3.81)
 					(name "RF13"
 						(effects
@@ -2139,9 +2139,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 15.24 180)
+					(at -30.48 -12.7 0)
 					(length 3.81)
-					(name "RB14/VBUSON1"
+					(name "RE6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -38.1 180)
+					(at 30.48 -53.34 180)
 					(length 3.81)
 					(name "RF12"
 						(effects
@@ -2175,9 +2175,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -12.7 0)
+					(at 30.48 20.32 180)
 					(length 3.81)
-					(name "RE12"
+					(name "RB12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2193,9 +2193,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -15.24 0)
+					(at 30.48 17.78 180)
 					(length 3.81)
-					(name "RE13"
+					(name "RB13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2211,9 +2211,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -17.78 0)
+					(at 30.48 15.24 180)
 					(length 3.81)
-					(name "RE14"
+					(name "RB14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2229,9 +2229,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -20.32 0)
+					(at 30.48 12.7 180)
 					(length 3.81)
-					(name "RE15"
+					(name "RB15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -68.58 90)
+					(at -2.54 -66.04 90)
 					(length 3.81) hide
 					(name "VSS"
 						(effects
@@ -2283,7 +2283,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -12.7 180)
+					(at 30.48 -27.94 180)
 					(length 3.81)
 					(name "RD14"
 						(effects
@@ -2301,7 +2301,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -15.24 180)
+					(at 30.48 -30.48 180)
 					(length 3.81)
 					(name "RD15"
 						(effects
@@ -2319,9 +2319,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 48.26 0)
+					(at 30.48 -45.72 180)
 					(length 3.81)
-					(name "RA8/TDI"
+					(name "RF4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2337,9 +2337,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 12.7 180)
+					(at -30.48 -15.24 0)
 					(length 3.81)
-					(name "RB15"
+					(name "RE7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2355,9 +2355,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 40.64 180)
+					(at 30.48 -48.26 180)
 					(length 3.81)
-					(name "RB4"
+					(name "RF5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2373,9 +2373,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 53.34 0)
+					(at 30.48 -43.18 180)
 					(length 3.81)
-					(name "RA4"
+					(name "RF3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2391,9 +2391,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -2.54 0)
+					(at 30.48 -40.64 180)
 					(length 3.81)
-					(name "RE0"
+					(name "RF2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2409,9 +2409,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -5.08 0)
+					(at 30.48 -50.8 180)
 					(length 3.81)
-					(name "RE1"
+					(name "RF8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2429,7 +2429,7 @@
 				(pin input line
 					(at -30.48 -58.42 0)
 					(length 3.81)
-					(name "VBUS1"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2463,9 +2463,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -45.72 180)
+					(at -30.48 -33.02 0)
 					(length 3.81)
-					(name "D1-"
+					(name "RG3/D-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2481,9 +2481,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -48.26 180)
+					(at -30.48 -30.48 0)
 					(length 3.81)
-					(name "D1+"
+					(name "RG2/D+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2498,10 +2498,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -30.48 -60.96 0)
+				(pin bidirectional line
+					(at -30.48 53.34 0)
 					(length 3.81)
-					(name "VBUS2"
+					(name "RA2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2517,9 +2517,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -53.34 180)
+					(at -30.48 50.8 0)
 					(length 3.81)
-					(name "D2-"
+					(name "RA3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2535,9 +2535,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 7.62 180)
+					(at -30.48 25.4 0)
 					(length 3.81)
-					(name "RD1"
+					(name "RC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2553,9 +2553,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -55.88 180)
+					(at -30.48 48.26 0)
 					(length 3.81)
-					(name "D2+"
+					(name "RA4/TDI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2571,9 +2571,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -25.4 180)
+					(at -30.48 45.72 0)
 					(length 3.81)
-					(name "RF5"
+					(name "RA5/TDO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2607,9 +2607,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 7.62 0)
+					(at -30.48 15.24 0)
 					(length 3.81)
-					(name "RC12/OSCI/CLKI"
+					(name "RC12/OSC1/CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2625,9 +2625,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 2.54 0)
+					(at -30.48 7.62 0)
 					(length 3.81)
-					(name "RC15/OSCO/CLKO"
+					(name "RC15/OSC2/CLKO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2643,7 +2643,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -68.58 90)
+					(at -2.54 -66.04 90)
 					(length 3.81) hide
 					(name "VSS"
 						(effects
@@ -2661,7 +2661,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 38.1 0)
+					(at -30.48 33.02 0)
 					(length 3.81)
 					(name "RA14"
 						(effects
@@ -2679,7 +2679,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 35.56 0)
+					(at -30.48 30.48 0)
 					(length 3.81)
 					(name "RA15"
 						(effects
@@ -2696,10 +2696,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 10.16 66.04 270)
+				(pin bidirectional line
+					(at 30.48 -12.7 180)
 					(length 3.81)
-					(name "VBAT"
+					(name "RD8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2715,9 +2715,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 38.1 180)
+					(at 30.48 -15.24 180)
 					(length 3.81)
-					(name "PGD2/RB5"
+					(name "RD9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2733,9 +2733,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 5.08 180)
+					(at -30.48 22.86 0)
 					(length 3.81)
-					(name "RD2"
+					(name "RC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2751,9 +2751,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 35.56 180)
+					(at 30.48 -17.78 180)
 					(length 3.81)
-					(name "PGC2/RB6"
+					(name "RD10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2769,9 +2769,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 12.7 0)
+					(at 30.48 -20.32 180)
 					(length 3.81)
-					(name "RC10"
+					(name "RD11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2787,9 +2787,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 33.02 180)
+					(at 30.48 7.62 180)
 					(length 3.81)
-					(name "RB7"
+					(name "RD0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2805,7 +2805,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 5.08 0)
+					(at -30.48 12.7 0)
 					(length 3.81)
 					(name "RC13/SOSCI"
 						(effects
@@ -2823,9 +2823,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 30.48 180)
+					(at -30.48 10.16 0)
 					(length 3.81)
-					(name "SOSCO/RB8"
+					(name "RC14/SOSCO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2841,7 +2841,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -68.58 90)
+					(at -2.54 -66.04 90)
 					(length 3.81) hide
 					(name "VSS"
 						(effects
@@ -2859,9 +2859,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 27.94 180)
+					(at 30.48 5.08 180)
 					(length 3.81)
-					(name "TMS/RB9"
+					(name "RD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2877,9 +2877,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 22.86 0)
+					(at 30.48 2.54 180)
 					(length 3.81)
-					(name "RC6"
+					(name "RD2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2895,9 +2895,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 20.32 0)
+					(at 30.48 0 180)
 					(length 3.81)
-					(name "RC7"
+					(name "RD3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2913,7 +2913,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -7.62 180)
+					(at 30.48 -22.86 180)
 					(length 3.81)
 					(name "RD12"
 						(effects
@@ -2931,9 +2931,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 2.54 180)
+					(at -30.48 20.32 0)
 					(length 3.81)
-					(name "RD3"
+					(name "RC3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2949,7 +2949,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -10.16 180)
+					(at 30.48 -25.4 180)
 					(length 3.81)
 					(name "RD13"
 						(effects
@@ -2967,9 +2967,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 17.78 0)
+					(at 30.48 -2.54 180)
 					(length 3.81)
-					(name "RC8"
+					(name "RD4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2985,7 +2985,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -2.54 180)
+					(at 30.48 -5.08 180)
 					(length 3.81)
 					(name "RD5"
 						(effects
@@ -3003,7 +3003,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -5.08 180)
+					(at 30.48 -7.62 180)
 					(length 3.81)
 					(name "RD6"
 						(effects
@@ -3021,9 +3021,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 15.24 0)
+					(at 30.48 -10.16 180)
 					(length 3.81)
-					(name "RC9"
+					(name "RD7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3038,10 +3038,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -2.54 -68.58 90)
-					(length 3.81) hide
-					(name "VSS"
+				(pin power_out line
+					(at 10.16 66.04 270)
+					(length 3.81)
+					(name "VCAP/VDDCORE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3075,7 +3075,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -20.32 180)
+					(at 30.48 -35.56 180)
 					(length 3.81)
 					(name "RF0"
 						(effects
@@ -3093,7 +3093,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -22.86 180)
+					(at 30.48 -38.1 180)
 					(length 3.81)
 					(name "RF1"
 						(effects
@@ -3129,9 +3129,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 0 180)
+					(at -30.48 17.78 0)
 					(length 3.81)
-					(name "RD4"
+					(name "RC4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3165,9 +3165,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -27.94 180)
+					(at -30.48 43.18 0)
 					(length 3.81)
-					(name "TRCLK/RF6"
+					(name "RA6/TRCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3183,9 +3183,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 -30.48 180)
+					(at -30.48 40.64 0)
 					(length 3.81)
-					(name "TRD3/RF7"
+					(name "RA7/TRD3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3201,9 +3201,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 25.4 180)
+					(at -30.48 2.54 0)
 					(length 3.81)
-					(name "RB10"
+					(name "RE0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3219,9 +3219,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 22.86 180)
+					(at -30.48 0 0)
 					(length 3.81)
-					(name "RB11"
+					(name "RE1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3257,7 +3257,7 @@
 				(pin bidirectional line
 					(at -30.48 -45.72 0)
 					(length 3.81)
-					(name "RG12"
+					(name "RG12/TRD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3291,9 +3291,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 20.32 180)
+					(at -30.48 -2.54 0)
 					(length 3.81)
-					(name "RB12"
+					(name "RE2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3309,9 +3309,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 30.48 17.78 180)
+					(at -30.48 -5.08 0)
 					(length 3.81)
-					(name "RB13"
+					(name "RE3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7127,17 +7127,17 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Microchip_PIC32:PIC32MK1024GPD100-xPT")
-		(at 317.5 180.34 0)
+		(lib_id "MCU_Microchip_PIC32:PIC32MX795F512L-80x-PF")
+		(at 321.31 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "737cbf90-943d-4061-85df-df7c09b4ad03")
+		(uuid "96593322-1c06-42f9-8770-dc9cd5a9c6be")
 		(property "Reference" "U1"
-			(at 322.2341 247.65 0)
+			(at 326.0441 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,8 +7145,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PIC32MK1024GPD100-xPT"
-			(at 322.2341 250.19 0)
+		(property "Value" "PIC32MX795F512L-80x-PF"
+			(at 326.0441 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,8 +7154,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-100_12x12mm_P0.4mm"
-			(at 317.5 260.35 0)
+		(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
+			(at 321.31 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,8 +7163,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MK_GP_MC_Familly_Datasheet_60001402G.pdf"
-			(at 317.5 256.54 0)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf"
+			(at 321.31 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,314 +7172,314 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MIPS MCU, 120MHz, 1MB Flash, 256KB RAM, 2.3-3.6V, USB, TQFP-100"
-			(at 317.5 180.34 0)
+		(property "Description" "MIPS MCU, 80MHz, 512KB Flash, 12KB Boot Flash, 128KB RAM, 2.3-3.6V, USB, CAN, Ethernet, TQFP-100"
+			(at 321.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "22"
-			(uuid "e89a1f39-ebd3-40c2-ae7a-8286f4af3659")
-		)
-		(pin "24"
-			(uuid "d7916b95-2f61-4608-bbfd-39238a337778")
-		)
-		(pin "27"
-			(uuid "b259326c-ec5d-4aba-bc99-ee994484bdb9")
 		)
 		(pin "53"
-			(uuid "8c446429-8364-4a51-a31e-5d0235fb94ab")
-		)
-		(pin "50"
-			(uuid "3770765b-b699-4ea7-8e1f-4a9a8e3f6077")
-		)
-		(pin "54"
-			(uuid "d9b490ea-f002-4ca9-b6e8-83b9c373e1d9")
-		)
-		(pin "58"
-			(uuid "0b94defb-0f0e-4b3c-953b-388bb02110e7")
-		)
-		(pin "47"
-			(uuid "890151ce-f7b3-4608-b669-479da8afb04a")
-		)
-		(pin "60"
-			(uuid "778077ec-c3e1-43d7-b0de-a4eccb5cfc3e")
-		)
-		(pin "61"
-			(uuid "66045d65-9e5b-49e7-b88a-bd0a1c602002")
-		)
-		(pin "43"
-			(uuid "eeca5e40-3888-4e25-a92c-e30ed96fe9a1")
-		)
-		(pin "6"
-			(uuid "21a1c391-7baa-45f7-83e0-65688a05c846")
-		)
-		(pin "100"
-			(uuid "800e8466-e8d2-4b9d-8f91-0c445c076aaa")
-		)
-		(pin "32"
-			(uuid "9ec1b2ae-7bed-44af-80c1-36e0276be021")
-		)
-		(pin "56"
-			(uuid "539dab21-1477-4598-bbd0-f83d4dc673aa")
-		)
-		(pin "40"
-			(uuid "36eee4d9-e725-42c9-825a-a814a74af961")
-		)
-		(pin "62"
-			(uuid "746b466a-6210-48c0-aa32-bafc8a5c6006")
-		)
-		(pin "48"
-			(uuid "b19637a7-2bcf-4355-851e-d0d8e76a69e1")
-		)
-		(pin "37"
-			(uuid "7c97d662-ff9f-468f-ba0b-a89bd2ef5062")
-		)
-		(pin "17"
-			(uuid "4f0fcc0a-26cd-4b29-bdfd-ba3dfe148927")
-		)
-		(pin "64"
-			(uuid "2a884714-be0a-4b51-a241-89d2cb2e20a2")
-		)
-		(pin "57"
-			(uuid "72b1cc2d-a69b-4a6b-a13e-85027d8c7518")
-		)
-		(pin "15"
-			(uuid "1ca5d703-85bf-42a7-aa92-1c4c6e425efc")
-		)
-		(pin "35"
-			(uuid "74c095b0-ccf5-4601-9c16-46cd2f669365")
-		)
-		(pin "31"
-			(uuid "bb58dbe2-dee0-4674-bc44-d44a4a2c79e1")
-		)
-		(pin "33"
-			(uuid "000c1d66-aad5-436b-9586-ca038e3849a4")
-		)
-		(pin "55"
-			(uuid "8340911d-3560-486e-940f-e856fd84dd3b")
-		)
-		(pin "20"
-			(uuid "961fd4d9-544d-48bd-8bda-10888c1dac65")
-		)
-		(pin "65"
-			(uuid "dadb6aac-8ded-4777-9f04-2976151c378b")
-		)
-		(pin "66"
-			(uuid "e7cc1c8d-2b1e-40d2-abae-02bf6a1abcd2")
-		)
-		(pin "28"
-			(uuid "61e7031d-8f7e-4f3e-b242-228a0e7f4872")
-		)
-		(pin "34"
-			(uuid "8c19bd47-4a09-45b0-84c0-633bd5fc99f5")
-		)
-		(pin "10"
-			(uuid "ddefbcfc-064a-4906-b4d3-b11793205edb")
-		)
-		(pin "30"
-			(uuid "3fde9e76-3d02-4f85-b281-2ca4c1cc9ed4")
-		)
-		(pin "38"
-			(uuid "b5930546-5629-4d90-ae6a-98b06c5fdd9e")
-		)
-		(pin "44"
-			(uuid "cdf7a972-8bcc-4736-b4a0-8d243fd050e3")
-		)
-		(pin "36"
-			(uuid "696d529f-3b9e-4056-b382-03180874b8e7")
-		)
-		(pin "46"
-			(uuid "3edccfb8-7e6f-4f8f-b471-25bf5a228539")
-		)
-		(pin "16"
-			(uuid "55932eec-b54c-44ee-b04f-6e3c14ab7edb")
+			(uuid "1b41b27a-f72f-4c86-ac6a-a0410f21a87f")
 		)
 		(pin "23"
-			(uuid "a202d72b-aad1-41c1-b46b-f51ada26da5f")
+			(uuid "775e726f-3ec3-4e38-bc53-e269b1cf0306")
 		)
-		(pin "29"
-			(uuid "22b09c17-6857-4286-a1df-551a31b38641")
+		(pin "54"
+			(uuid "94a7d9ce-e7b6-419e-894d-fbdf944cefc0")
 		)
-		(pin "3"
-			(uuid "93fdaf25-8e4c-4031-b14d-ec544d6cd225")
+		(pin "61"
+			(uuid "327de2c5-ba7c-42d1-b044-dfc76b12b969")
 		)
-		(pin "39"
-			(uuid "fdb166fc-f297-43a4-89be-155225c6347d")
+		(pin "34"
+			(uuid "7377d89c-5dd4-4927-affa-1d133b6c1223")
 		)
-		(pin "14"
-			(uuid "9e55b7f1-ce36-4107-a4d2-f73f515f32e9")
+		(pin "10"
+			(uuid "b229a0b5-8312-4ee2-92bb-114e0b103aae")
 		)
-		(pin "49"
-			(uuid "e011d1e7-51d3-4a51-af61-673896f102bc")
-		)
-		(pin "5"
-			(uuid "875c030f-12e4-4bbd-aec2-f94778f46cc5")
-		)
-		(pin "42"
-			(uuid "0dbe7b66-4d02-4164-83bc-d4229c2eccdf")
-		)
-		(pin "2"
-			(uuid "ea7e2949-cf42-437a-8982-4ff50617009f")
-		)
-		(pin "45"
-			(uuid "2f33ad8a-5bfb-47bb-a990-78fccbb5436b")
-		)
-		(pin "1"
-			(uuid "3cc9c655-e6b6-4232-8e6f-3509348ec486")
-		)
-		(pin "59"
-			(uuid "5b55ec78-a278-4ed2-b4a7-861f9ce24084")
-		)
-		(pin "25"
-			(uuid "41f51364-8c75-4f41-bc3c-486df22aec6b")
-		)
-		(pin "63"
-			(uuid "1dfc67d0-788f-47bc-92f8-1be2209dd368")
-		)
-		(pin "11"
-			(uuid "c5cff3fe-28e5-4001-b17e-d7cdabf84924")
-		)
-		(pin "18"
-			(uuid "53205e4e-b523-4135-b6b8-5f82f1e5226e")
-		)
-		(pin "12"
-			(uuid "813dd80c-6040-4976-9c57-498a9505cc3d")
-		)
-		(pin "19"
-			(uuid "20987fac-ad61-415c-bf1e-4e9ed332871e")
-		)
-		(pin "26"
-			(uuid "fcada1ab-326d-4c5e-baee-637446715edc")
+		(pin "48"
+			(uuid "3fd7ee1b-75ca-4897-94a7-70d9f0944165")
 		)
 		(pin "4"
-			(uuid "262a4315-4cec-404a-9c2a-a238d0e94da3")
+			(uuid "66198c56-99ae-48e8-a0fe-2266bc8f435a")
 		)
-		(pin "41"
-			(uuid "761673a2-f125-4333-9c4c-b33bc409741a")
+		(pin "15"
+			(uuid "aad57e65-8a81-443c-a6c5-dc3963b46f08")
 		)
-		(pin "51"
-			(uuid "111bd78c-d329-419d-b7ef-40d6b87ed80f")
+		(pin "57"
+			(uuid "db76c81c-7156-41ee-b224-b13dd3314fda")
 		)
-		(pin "52"
-			(uuid "141c90a6-7abb-4431-8056-6040e52954f1")
+		(pin "65"
+			(uuid "b299fe80-0d26-4b94-a564-f57efa992064")
 		)
-		(pin "13"
-			(uuid "8d94ab1a-4300-4e2f-913d-d7a3848b607e")
+		(pin "17"
+			(uuid "5bf9b979-4e7e-4abf-961c-a035f95e5c01")
+		)
+		(pin "11"
+			(uuid "dc935f4c-e8d0-4fb0-a600-952d60153724")
+		)
+		(pin "18"
+			(uuid "eab00a47-1cf9-46f2-87b8-afd7f35b6c7a")
+		)
+		(pin "100"
+			(uuid "bac8e34a-3910-46fe-8d3b-0ff456f311c7")
 		)
 		(pin "21"
-			(uuid "afda00ba-6f70-4edc-8033-dc658bdc7090")
+			(uuid "94881851-dd90-4718-ab01-ac3e5f7251f0")
 		)
-		(pin "68"
-			(uuid "c8424441-5a0f-47a5-804d-dc0347536e7f")
+		(pin "28"
+			(uuid "25470bdd-74f3-4c1c-a8b4-ada63c77fc5c")
 		)
-		(pin "82"
-			(uuid "aacd652a-5711-472b-909e-a509bae10a09")
+		(pin "32"
+			(uuid "05fda880-94cf-4804-8a8d-e3b7d6d835c5")
 		)
-		(pin "84"
-			(uuid "8c28a0d4-4280-409d-94ec-f4b98324b57f")
+		(pin "36"
+			(uuid "9f55e05a-6d8f-4ff1-b9aa-9cd62b7a260f")
 		)
-		(pin "69"
-			(uuid "443c24e3-f328-4d08-a2fc-7ba81384a5cf")
+		(pin "44"
+			(uuid "f8068311-cc92-431d-9720-16a788e28956")
 		)
-		(pin "87"
-			(uuid "1bc2a24c-5014-4ccc-aefa-234adcd9c4a7")
+		(pin "37"
+			(uuid "7001767c-139f-4242-927b-4e0a37eb73e1")
 		)
-		(pin "88"
-			(uuid "0da17e50-b8ac-42aa-bab9-a9e8e9dbd795")
+		(pin "5"
+			(uuid "fed2604d-97f8-46f7-aab6-23f18bbd1fab")
 		)
-		(pin "89"
-			(uuid "7fa15b88-1feb-4807-9156-beed44e5a655")
+		(pin "50"
+			(uuid "3b5392ec-b091-4b7e-a966-7fb7811e5d9b")
+		)
+		(pin "41"
+			(uuid "e4dc87cc-f041-406c-bf2a-8ff29654fd45")
+		)
+		(pin "55"
+			(uuid "16778dda-62b5-4d6c-a58d-cad3ae9ac1da")
+		)
+		(pin "58"
+			(uuid "c55f1a42-3b01-4ee0-8f12-d7822ce52d9a")
+		)
+		(pin "19"
+			(uuid "01b2a0f5-23ab-498c-9db2-c9e7094927af")
+		)
+		(pin "59"
+			(uuid "0fcadcbc-950d-4b0f-9668-1368411bd66c")
+		)
+		(pin "6"
+			(uuid "3b71d101-2a0e-4f88-aeca-baea60327aab")
+		)
+		(pin "13"
+			(uuid "54eee590-6798-4a2e-aa0b-e0e1d580f6b3")
+		)
+		(pin "60"
+			(uuid "c5db80fb-db81-43c3-a747-fd7871b6d83b")
+		)
+		(pin "39"
+			(uuid "d43cd5f1-1955-4704-a9d6-fe5c1056b3c8")
+		)
+		(pin "46"
+			(uuid "19501a89-9a96-4d4d-bd5d-d20ed1f023fb")
+		)
+		(pin "62"
+			(uuid "d50d1658-4b44-44d5-a938-dd66869a7ed5")
+		)
+		(pin "3"
+			(uuid "16efe827-87dc-43ec-a603-26c70b1487a0")
+		)
+		(pin "52"
+			(uuid "0342a018-29e6-4adc-802d-5c146347fa23")
+		)
+		(pin "49"
+			(uuid "011038c8-0a93-44e1-816f-4b92c9a16b5c")
+		)
+		(pin "33"
+			(uuid "c437bcf9-43eb-46e8-807f-98528d099d70")
+		)
+		(pin "56"
+			(uuid "fdaf037a-1bc5-48dc-a202-29d9efa3d622")
+		)
+		(pin "63"
+			(uuid "e8e23aa5-a19e-4541-94f4-2332d900ab0a")
+		)
+		(pin "64"
+			(uuid "7db7cdfc-7b7f-48e9-b331-d6ef01c248d5")
+		)
+		(pin "22"
+			(uuid "e71236c3-1327-424e-a43c-276d285f11a9")
+		)
+		(pin "29"
+			(uuid "28eea950-27d8-46e0-ac98-8bc1ae50b84e")
+		)
+		(pin "45"
+			(uuid "0ad3323a-04ef-40de-8516-1fe543d62654")
+		)
+		(pin "16"
+			(uuid "c9a366f8-249c-4d48-97d1-bf8ec024e891")
+		)
+		(pin "51"
+			(uuid "0767cfaf-c593-455d-b71a-1da830718f60")
+		)
+		(pin "2"
+			(uuid "1d430538-c18b-4f30-9e33-e7cf03801659")
+		)
+		(pin "25"
+			(uuid "36536fb3-ed9e-4f91-a321-904b067b85b6")
+		)
+		(pin "31"
+			(uuid "3307e03e-f3dd-404c-824a-28265e572351")
+		)
+		(pin "26"
+			(uuid "ae20f7aa-d829-445d-9563-1c1268e152c1")
+		)
+		(pin "38"
+			(uuid "51c9e321-a6b1-4cf7-817b-16706c92aec1")
+		)
+		(pin "43"
+			(uuid "2bf14e4a-2fd7-4044-a39c-fd9ff5b4352d")
+		)
+		(pin "1"
+			(uuid "5322594f-b047-4122-a24d-596f8cb7a454")
+		)
+		(pin "35"
+			(uuid "06e081db-3c87-4058-b75a-bde03c799ea3")
+		)
+		(pin "47"
+			(uuid "f5271f5a-809e-4156-802e-af34c66e99e5")
+		)
+		(pin "20"
+			(uuid "b54c556d-8223-4f0e-80b2-8765955cd173")
+		)
+		(pin "40"
+			(uuid "ab425519-ba27-434f-9419-b4af6ff9386c")
+		)
+		(pin "27"
+			(uuid "d1d17487-438b-4db1-9d62-4ca8a6b48d63")
+		)
+		(pin "24"
+			(uuid "259c68f0-2beb-4126-a6a4-d825606e9646")
+		)
+		(pin "12"
+			(uuid "1e185886-b67e-41cf-bf3f-c74d580474c5")
+		)
+		(pin "14"
+			(uuid "d772aea4-34b6-4166-bb68-d3234a0c445c")
+		)
+		(pin "30"
+			(uuid "99514ecb-fc4c-4493-b23c-fe0fca89a106")
+		)
+		(pin "42"
+			(uuid "499d6543-16b8-41a8-9b9d-4770502584f3")
 		)
 		(pin "9"
-			(uuid "f2304e68-9b1f-4c57-b064-ffbd215f2798")
-		)
-		(pin "94"
-			(uuid "7c3d6994-a8b6-446c-8b9a-f19c9b10e5e5")
-		)
-		(pin "95"
-			(uuid "ca6c174e-df9c-42d1-aba7-7c09c2f8ff61")
-		)
-		(pin "73"
-			(uuid "c901ce3e-9795-4e70-ad4b-587d789f9f23")
-		)
-		(pin "77"
-			(uuid "732beb60-e70c-4669-a27b-bc141bb6ed1c")
-		)
-		(pin "97"
-			(uuid "7c193d6e-1540-4eb2-ad15-1f101385ec34")
-		)
-		(pin "98"
-			(uuid "41b66d40-f8b6-4da4-a77c-5d3cd316540d")
-		)
-		(pin "85"
-			(uuid "7219080a-2214-451d-9f2d-6180f1a5013e")
-		)
-		(pin "74"
-			(uuid "d4753d53-ac16-470a-9e27-8619a8e2b5bc")
-		)
-		(pin "79"
-			(uuid "07a4581b-6da6-4cc3-b41b-1967c847506d")
-		)
-		(pin "86"
-			(uuid "9b792069-973e-43ec-8f2c-dc4c96bcd287")
+			(uuid "13d2dcc4-f4a4-41b3-a857-605ecc79de3c")
 		)
 		(pin "70"
-			(uuid "eb1e1f0c-5bf0-4c5e-bd74-5842112ab6f0")
+			(uuid "ea465dc6-68b0-4115-8eec-0695cefa90aa")
 		)
-		(pin "81"
-			(uuid "8257a046-bdc5-4868-b12f-98d0bfc21821")
-		)
-		(pin "92"
-			(uuid "6ca9aa62-49ab-4357-a993-91e38bf3771c")
-		)
-		(pin "7"
-			(uuid "9d60e475-503e-4482-b2f2-a41e629479de")
-		)
-		(pin "96"
-			(uuid "37471906-2c30-4916-bb71-0c9e7f19bba9")
-		)
-		(pin "99"
-			(uuid "a00e0167-8d1d-4aca-9578-a41b4aa455fb")
-		)
-		(pin "90"
-			(uuid "d25261a4-2479-422b-babd-73b2924f9805")
-		)
-		(pin "71"
-			(uuid "1fc5b555-8d44-45fb-9de8-e4919b83f229")
-		)
-		(pin "91"
-			(uuid "c73bfd64-fbbd-41e0-a669-3e86b0a96ab5")
-		)
-		(pin "83"
-			(uuid "873d6d4c-9cec-4674-ac58-2e8be7dc0857")
-		)
-		(pin "93"
-			(uuid "237d6bd4-aab7-4222-a6e7-812df152fdb4")
-		)
-		(pin "75"
-			(uuid "7c2e26c1-7d0d-45fa-8a54-882516570570")
-		)
-		(pin "76"
-			(uuid "520e6363-8150-4ee4-ae45-95796ced88e0")
-		)
-		(pin "78"
-			(uuid "0f3c734e-89d7-4230-9dfd-14d078d4831c")
-		)
-		(pin "80"
-			(uuid "b7e81f3a-f045-46f4-9b77-4825c8f98c2d")
-		)
-		(pin "67"
-			(uuid "db2dc840-6a97-4716-88a5-13271ae9dc89")
+		(pin "66"
+			(uuid "6e4dded7-55ab-4000-8b66-b4a8c1552d4c")
 		)
 		(pin "72"
-			(uuid "6fb82494-8beb-4f59-8e64-b9bae947e81d")
+			(uuid "5fc478e7-3eda-4bca-93f5-d4a6de8e7803")
+		)
+		(pin "76"
+			(uuid "17b045b1-d23f-4ba3-b0ea-e29198641b0c")
+		)
+		(pin "78"
+			(uuid "65b4fdc6-7a87-46de-9b0d-c70662fa4110")
+		)
+		(pin "80"
+			(uuid "740e6730-cf17-4d59-9403-bf32571fd9cc")
+		)
+		(pin "84"
+			(uuid "484de2bf-3839-4e4f-b443-d03c70b8b396")
 		)
 		(pin "8"
-			(uuid "b7f1f981-67e2-47a9-9ab8-f04b314fb057")
+			(uuid "11fa0d63-32de-43d1-8a69-9519d37fee9b")
+		)
+		(pin "85"
+			(uuid "ee8081f0-be56-42a3-97dd-6f44aa90bed7")
+		)
+		(pin "68"
+			(uuid "e0c127d3-626c-47ab-904e-a553c43ab6e8")
+		)
+		(pin "83"
+			(uuid "14de71bd-e49f-41a0-a105-8d632ddc98b2")
+		)
+		(pin "81"
+			(uuid "a4045d7e-dcaa-4115-836a-33740144a7d4")
+		)
+		(pin "82"
+			(uuid "fb5474af-58dc-4269-b7a5-e34acaf6a4c9")
+		)
+		(pin "74"
+			(uuid "17181a22-c65f-4f53-9485-cd9f047c75da")
+		)
+		(pin "77"
+			(uuid "aefd3235-253b-4f71-843b-138c561a2867")
+		)
+		(pin "79"
+			(uuid "5eac059f-8926-4641-8063-98f8178ff370")
+		)
+		(pin "67"
+			(uuid "86a15260-7dbb-4449-bfdd-38f93b4650ec")
+		)
+		(pin "7"
+			(uuid "8ae1771a-204a-4f5a-9b78-2db8d89df963")
+		)
+		(pin "86"
+			(uuid "1b98a4b9-c17f-47db-a057-ebd772069157")
+		)
+		(pin "69"
+			(uuid "b0f07156-d9da-4c26-8296-830310ebc917")
+		)
+		(pin "73"
+			(uuid "58ea8d49-93bb-432a-af00-13a92c70de16")
+		)
+		(pin "75"
+			(uuid "4737e27f-f0ab-47e6-a164-85a232c83523")
+		)
+		(pin "87"
+			(uuid "45f60b7c-7403-4558-b2dd-afb66d4c9bae")
+		)
+		(pin "88"
+			(uuid "192d20c4-c97f-4003-b775-700a2d27032a")
+		)
+		(pin "89"
+			(uuid "927ee1a6-5cac-4a3f-8da1-2481355d343b")
+		)
+		(pin "71"
+			(uuid "6b04eef4-32e9-46c4-8f12-a4ff03fee4e0")
+		)
+		(pin "94"
+			(uuid "8500ff80-8e21-4949-886e-36c91308c268")
+		)
+		(pin "97"
+			(uuid "7c97af76-ce29-4e83-8c51-7eaf1729cf87")
+		)
+		(pin "95"
+			(uuid "6ed32afe-1aca-4ae0-8f0e-5a1fa81c0e58")
+		)
+		(pin "96"
+			(uuid "656008a9-0789-412b-afc3-f52f5420cfa2")
+		)
+		(pin "93"
+			(uuid "544dea60-9a23-4fb7-a3dd-ac8a8ce2d154")
+		)
+		(pin "92"
+			(uuid "8c1ef80b-370b-4e03-b44b-79cabf4e7d32")
+		)
+		(pin "91"
+			(uuid "0bb78984-82b1-457c-8f7d-8ab4b55d6cb8")
+		)
+		(pin "98"
+			(uuid "cf9598e2-cfa9-4720-a960-aab3265f2c03")
+		)
+		(pin "90"
+			(uuid "2c5583b2-352f-4547-960e-7a77630c943b")
+		)
+		(pin "99"
+			(uuid "fc3193fd-a47c-4a57-aa91-af4f25b57a09")
 		)
 		(instances
 			(project "Undroid"

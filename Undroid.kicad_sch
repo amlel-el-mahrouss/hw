@@ -10620,16 +10620,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 289.56) (xy 156.21 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c387a4e-16c1-4de1-b81c-4e4e545b7c17")
-	)
-	(wire
-		(pts
 			(xy 368.3 364.49) (xy 367.03 364.49)
 		)
 		(stroke
@@ -11090,7 +11080,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 289.56) (xy 125.73 289.56)
+			(xy 91.44 289.56) (xy 156.21 289.56)
 		)
 		(stroke
 			(width 0)
@@ -17964,74 +17954,6 @@
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 289.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6155aa57-ce58-4769-bf12-0cbb01a7f00b")
-		(property "Reference" "R10"
-			(at 129.54 283.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 129.54 285.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 129.54 287.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98c234b7-e988-47b4-b07f-11dd71a25c0b")
-		)
-		(pin "2"
-			(uuid "06971234-fa8e-4711-84ca-e1088ca6869a")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "R10")
 					(unit 1)
 				)
 			)

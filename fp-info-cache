@@ -1,4 +1,11 @@
-23334566863775695
+23336285407185335
+Allwinner
+QFP40P2200X2200X160-177N
+176-pin, 0.4mm-pitch QFP<br/>mostly based on IPC-SM-782, but made the pads slightly thinner to increase solder mask tracks.
+
+0
+177
+177
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

@@ -639,7 +639,7 @@
 	(footprint "LED_SMD:LED_PLCC-2_3x2mm_AK"
 		(layer "F.Cu")
 		(uuid "0b122add-83b0-4e61-a31f-44a579b2a546")
-		(at 152.7 45.2)
+		(at 151.125 43.2)
 		(descr "LED, SMD, PLCC-2, 3.0 x 2.0mm, orientation marker at anode, https://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLM3A-BKW,GKW.pdf")
 		(tags "LED PLCC-2 SMD")
 		(property "Reference" "D1"
@@ -3860,7 +3860,7 @@
 	(footprint "Connector_Card:microSD_HC_Molex_104031-0811"
 		(layer "F.Cu")
 		(uuid "3b91733f-e059-4247-8138-108a83ed61ff")
-		(at 163.9 158.1875)
+		(at 162.805 159.15)
 		(descr "1.10mm Pitch microSD Memory Card Connector, Surface Mount, Push-Pull Type, 1.42mm Height, with Detect Switch (https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf)")
 		(tags "microSD SD molex")
 		(property "Reference" "SD1"
@@ -4564,7 +4564,7 @@
 	(footprint "RF_Shielding:Wuerth_36503205_20x20mm"
 		(layer "F.Cu")
 		(uuid "45854977-8bb9-4bb8-b9f2-6e4c7a16a216")
-		(at 163.95 156.84)
+		(at 162.855 157.8025)
 		(descr "WE-SHC Shielding Cabinet THT 21x21mm")
 		(tags "Shielding Cabinet")
 		(property "Reference" "SHIELD_WUERTH1"

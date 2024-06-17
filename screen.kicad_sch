@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2ff8af97-c899-4c6b-a3b6-2d32fbfd616c")
+	(paper "A4")
+	(title_block
+		(title "Motherboard")
+		(date "2024-06-17")
+		(company "Zeta")
+	)
+	(lib_symbols)
+)

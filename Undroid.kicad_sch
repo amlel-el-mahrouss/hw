@@ -10491,7 +10491,7 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 96.52) (xy 543.56 96.52)
+			(xy 562.61 96.52) (xy 543.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11841,7 +11841,7 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 93.98) (xy 561.34 96.52)
+			(xy 562.61 93.98) (xy 562.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11989,6 +11989,17 @@
 			(justify left bottom)
 		)
 		(uuid "34e2f8cd-5ac1-480e-8f1c-dd12bb8a5094")
+	)
+	(label "For Antenna"
+		(at 262.89 325.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "6031ab12-c3ce-49ea-bdb5-be9783c29a0e")
 	)
 	(label "BridgeChip writes to RAM directly."
 		(at 332.74 152.4 0)
@@ -12980,28 +12991,6 @@
 			)
 		)
 	)
-	(global_label "SHIELD"
-		(shape input)
-		(at 209.55 170.18 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3841ba74-243a-416e-ad1c-c2e747a8af6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.55 179.7571 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SD0_F1"
 		(shape input)
 		(at 269.24 121.92 180)
@@ -13367,28 +13356,6 @@
 		(uuid "51247efe-bcbe-4a5e-a9e2-89c6df9e1cb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.7301 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SHIELD"
-		(shape input)
-		(at 215.9 309.88 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "52adf498-dbc9-4e79-a25b-608231d17981")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 319.4571 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19040,6 +19007,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RFShield_OnePiece")
+		(at 215.9 320.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4daac413-c2c0-4839-8d57-2b52d67718b8")
+		(property "Reference" "SHIELD_WUERTH1"
+			(at 232.41 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RFShield_OnePiece"
+			(at 232.41 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_Shielding:Wuerth_36503205_20x20mm"
+			(at 215.9 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 215.9 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffef6b65-fffe-4b94-a67e-933f5532f924")
+		)
+		(instances
+			(project "Undroid"
+				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
+					(reference "SHIELD_WUERTH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 374.65 255.27 90)
 		(unit 1)
@@ -23138,6 +23172,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RFShield_OnePiece")
+		(at 209.55 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c894b2-4fb4-4990-938d-9017fe349182")
+		(property "Reference" "SHIELD_WUERTH2"
+			(at 226.06 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RFShield_OnePiece"
+			(at 226.06 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_Shielding:Wuerth_36503205_20x20mm"
+			(at 209.55 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 209.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24876e4-4c13-4d36-9839-41e9ad975349")
+		)
+		(instances
+			(project "Undroid"
+				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
+					(reference "SHIELD_WUERTH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 287.02 83.82 0)
 		(unit 1)
@@ -23339,7 +23440,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 561.34 93.98 0)
+		(at 562.61 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23348,7 +23449,7 @@
 		(fields_autoplaced yes)
 		(uuid "d193e40c-f421-428e-ba04-11fe7e8cf301")
 		(property "Reference" "#PWR057"
-			(at 561.34 97.79 0)
+			(at 562.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23357,7 +23458,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 561.34 88.9 0)
+			(at 562.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23365,7 +23466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 561.34 93.98 0)
+			(at 562.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23374,7 +23475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 561.34 93.98 0)
+			(at 562.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23383,7 +23484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 561.34 93.98 0)
+			(at 562.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23669,7 +23770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd44a649-c195-4d14-9540-ae2a7fc17380")
-		(property "Reference" "J4"
+		(property "Reference" "SHIELD_WUERTH3"
 			(at 279.4 347.9799 0)
 			(effects
 				(font
@@ -23720,7 +23821,7 @@
 		(instances
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "J4")
+					(reference "SHIELD_WUERTH3")
 					(unit 1)
 				)
 			)

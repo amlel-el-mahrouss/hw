@@ -10850,10 +10850,6 @@
 		(uuid "2d1924fc-b9e4-4795-8701-42e8861f86d2")
 	)
 	(no_connect
-		(at 66.04 77.47)
-		(uuid "30e55bc2-9a27-497a-90d1-16ef60da0d41")
-	)
-	(no_connect
 		(at 546.1 280.67)
 		(uuid "320a670a-6c49-45bf-9bdc-2d9953950eb4")
 	)
@@ -11108,6 +11104,10 @@
 	(no_connect
 		(at 546.1 288.29)
 		(uuid "caeeba93-7197-494e-ad9b-412391eb4301")
+	)
+	(no_connect
+		(at 66.04 91.44)
+		(uuid "cb2d08fa-282f-43ae-a18e-6bbd15b32739")
 	)
 	(no_connect
 		(at 269.24 177.8)
@@ -11497,7 +11497,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 71.12 91.44)
+			(xy 67.31 81.28) (xy 67.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -11924,6 +11924,16 @@
 			(type default)
 		)
 		(uuid "598441a6-ede7-4e73-8b8f-990fede3713f")
+	)
+	(wire
+		(pts
+			(xy 67.31 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c54a890-9b68-462a-a7e6-ff24db229e74")
 	)
 	(wire
 		(pts
@@ -12447,6 +12457,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 85.09) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9f9c39-77c3-4bc1-9a9d-0f9671178447")
+	)
+	(wire
+		(pts
 			(xy 549.91 226.06) (xy 558.8 226.06)
 		)
 		(stroke
@@ -12484,16 +12504,6 @@
 			(type default)
 		)
 		(uuid "94a67656-f2ab-4259-b288-5600f9c59ef3")
-	)
-	(wire
-		(pts
-			(xy 66.04 77.47) (xy 66.04 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95853e88-574d-4220-bce2-d2e95a5a4701")
 	)
 	(wire
 		(pts
@@ -12774,16 +12784,6 @@
 			(type default)
 		)
 		(uuid "b9187c15-4c3e-472a-876d-efd7999c79a2")
-	)
-	(wire
-		(pts
-			(xy 83.82 73.66) (xy 83.82 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b92d5453-4576-4687-9df7-eb446c6170b3")
 	)
 	(wire
 		(pts
@@ -13157,7 +13157,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 85.09) (xy 83.82 83.82)
+			(xy 83.82 85.09) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -20994,7 +20994,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 71.12 73.66 0)
+		(at 67.31 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21003,7 +21003,7 @@
 		(fields_autoplaced yes)
 		(uuid "5636c2d4-2023-4e1e-b376-fa55e1b4c7b2")
 		(property "Reference" "#PWR021"
-			(at 71.12 77.47 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21012,7 +21012,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 71.12 68.58 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21020,7 +21020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 73.66 0)
+			(at 67.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21029,7 +21029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 73.66 0)
+			(at 67.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21038,7 +21038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 71.12 73.66 0)
+			(at 67.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21951,7 +21951,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 77.47 0)
+		(at 67.31 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21960,7 +21960,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e17f371-bf13-4ca5-8865-97242f5ad616")
 		(property "Reference" "R_VDD_3V3"
-			(at 73.66 76.1999 0)
+			(at 69.85 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21969,7 +21969,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 73.66 78.7399 0)
+			(at 69.85 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21978,7 +21978,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 69.342 77.47 90)
+			(at 65.532 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21987,7 +21987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 77.47 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21996,7 +21996,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 71.12 77.47 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23296,7 +23296,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 80.01 0)
+		(at 83.82 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23305,7 +23305,7 @@
 		(fields_autoplaced yes)
 		(uuid "97170dfc-18c0-4a2a-bce7-0a28b47942b1")
 		(property "Reference" "VBAT_R1"
-			(at 86.36 78.7399 0)
+			(at 86.36 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23314,7 +23314,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 86.36 81.2799 0)
+			(at 86.36 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23323,7 +23323,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 82.042 80.01 90)
+			(at 82.042 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23332,7 +23332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 80.01 0)
+			(at 83.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23341,7 +23341,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 80.01 0)
+			(at 83.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

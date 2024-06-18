@@ -5164,7 +5164,7 @@
 				)
 			)
 		)
-		(symbol "Device:Antenna_Shield"
+		(symbol "Device:Antenna"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -5172,7 +5172,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at -1.905 4.445 0)
+				(at -1.905 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5180,8 +5180,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna_Shield"
-				(at -1.905 2.54 0)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5190,7 +5190,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5199,7 +5199,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5207,7 +5207,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna with extra pin for shielding"
+			(property "Description" "Antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5225,46 +5225,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_Shield_0_1"
-				(arc
-					(start -0.508 -1.143)
-					(mid -0.8429 -2.1194)
-					(end 0 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.667)
-					(mid 0.7989 -2.1052)
-					(end 0.508 -1.143)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Antenna_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 -3.81)
+						(xy 0 2.54) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -5276,31 +5240,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -5308,21 +5248,10 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0.762 -1.905)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "Antenna_Shield_1_1"
+			(symbol "Antenna_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -5334,24 +5263,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5642,376 +5553,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:RFShield_OnePiece"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RFShield_OnePiece"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "One-piece EMI RF shielding cabinet"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RF EMI shielding cabinet"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RFShield_OnePiece_0_1"
-				(polyline
-					(pts
-						(xy -15.24 -5.08) (xy -15.24 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -15.24 -1.27) (xy -15.24 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -15.24 2.54) (xy -15.24 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 7.62) (xy -10.16 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -7.62) (xy -12.7 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -7.62) (xy -8.89 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 7.62) (xy -8.89 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -7.62) (xy -5.08 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 7.62) (xy -5.08 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy 1.27 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 7.62) (xy 2.54 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -7.62) (xy 8.89 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 7.62) (xy 6.35 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 7.62) (xy 10.16 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -5.08) (xy 15.24 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -1.27) (xy 15.24 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 2.54) (xy 15.24 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -15.24 6.35) (xy -15.24 7.62) (xy -13.97 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -13.97 -7.62) (xy -15.24 -7.62) (xy -15.24 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -7.62) (xy 15.24 -7.62) (xy 15.24 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 6.35) (xy 15.24 7.62) (xy 13.97 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RFShield_OnePiece_1_1"
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10806,6 +10347,10 @@
 		(uuid "0f4b7697-7025-4a28-997b-34e24d149b52")
 	)
 	(no_connect
+		(at 52.07 246.38)
+		(uuid "0f5993e7-5b7a-4db4-881e-2f5b32cbe618")
+	)
+	(no_connect
 		(at 464.82 290.83)
 		(uuid "15dd7ef1-a838-4da2-9f06-dac2d83bce37")
 	)
@@ -10832,6 +10377,10 @@
 	(no_connect
 		(at 464.82 313.69)
 		(uuid "1fbf8dcf-9b11-4f09-b8f0-201e2f23159f")
+	)
+	(no_connect
+		(at 52.07 243.84)
+		(uuid "1fe7f412-712f-4783-ade8-dcab54b6bf39")
 	)
 	(no_connect
 		(at 543.56 119.38)
@@ -10942,16 +10491,8 @@
 		(uuid "64b4ad73-35d4-4704-8cda-ea119328c82b")
 	)
 	(no_connect
-		(at 49.53 241.3)
-		(uuid "65b50975-274c-4908-818e-c34116736a37")
-	)
-	(no_connect
 		(at 546.1 349.25)
 		(uuid "6b68d565-c84b-48dc-8d37-25edffec6f8c")
-	)
-	(no_connect
-		(at 49.53 243.84)
-		(uuid "6d799214-dc4e-4907-b88a-aba7ff7efbdc")
 	)
 	(no_connect
 		(at 464.82 283.21)
@@ -10960,6 +10501,10 @@
 	(no_connect
 		(at 464.82 275.59)
 		(uuid "73d7f620-107b-4944-bc85-13bd0a8dad6e")
+	)
+	(no_connect
+		(at 52.07 241.3)
+		(uuid "7532f304-5a07-40b0-ad66-54f0ba0c3749")
 	)
 	(no_connect
 		(at 309.88 377.19)
@@ -10998,7 +10543,7 @@
 		(uuid "7cb25aa2-48c2-4ce5-a52c-c7e492af1341")
 	)
 	(no_connect
-		(at 91.44 139.7)
+		(at 93.98 139.7)
 		(uuid "7d02f087-834d-45e4-b197-ca50edec9c6c")
 	)
 	(no_connect
@@ -11040,6 +10585,10 @@
 	(no_connect
 		(at 472.44 200.66)
 		(uuid "8c682e67-751d-41c0-826e-4d386bb1219e")
+	)
+	(no_connect
+		(at 199.39 302.26)
+		(uuid "8e014323-d618-4f25-9c23-7a561fcba4cb")
 	)
 	(no_connect
 		(at 464.82 270.51)
@@ -11214,6 +10763,10 @@
 		(uuid "f882f5dc-6b9e-4812-8202-0a1a762ddb98")
 	)
 	(no_connect
+		(at 195.58 167.64)
+		(uuid "fa06b8d0-4960-4e2d-9e59-b4f8f924c442")
+	)
+	(no_connect
 		(at 93.98 127)
 		(uuid "fa95c2b0-7f81-4831-a690-97641f993698")
 	)
@@ -11267,16 +10820,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 246.38) (xy 52.07 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a94503c-bd6c-49c2-9eb2-b4b6a02bd8e7")
-	)
-	(wire
-		(pts
 			(xy 46.99 224.79) (xy 46.99 226.06)
 		)
 		(stroke
@@ -11284,16 +10827,6 @@
 			(type default)
 		)
 		(uuid "0ad2f8ec-dc41-47ae-9f4a-f32e8e8fa86e")
-	)
-	(wire
-		(pts
-			(xy 49.53 241.3) (xy 52.07 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4c9fb4-9df0-49e4-8fd9-8727e2ecb200")
 	)
 	(wire
 		(pts
@@ -11664,16 +11197,6 @@
 			(type default)
 		)
 		(uuid "36f25c22-7de2-4b07-bac6-55ae0df8ba43")
-	)
-	(wire
-		(pts
-			(xy 209.55 167.64) (xy 209.55 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9555de-8f67-4500-bca3-4346b56ca0d2")
 	)
 	(wire
 		(pts
@@ -12217,16 +11740,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 167.64) (xy 209.55 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7818f083-5d8e-40df-ae3c-d08f527faa63")
-	)
-	(wire
-		(pts
 			(xy 425.45 318.77) (xy 415.29 318.77)
 		)
 		(stroke
@@ -12367,16 +11880,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 246.38) (xy 45.72 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ae9188-39a0-4866-a80e-ec94d197087d")
-	)
-	(wire
-		(pts
 			(xy 110.49 248.92) (xy 115.57 248.92)
 		)
 		(stroke
@@ -12514,16 +12017,6 @@
 			(type default)
 		)
 		(uuid "95efbab3-94ee-4d57-91ef-28b0a3ecf84f")
-	)
-	(wire
-		(pts
-			(xy 209.55 302.26) (xy 209.55 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962f6e9b-a7e0-4a8e-b00c-d49778e4a470")
 	)
 	(wire
 		(pts
@@ -12997,16 +12490,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 149.86 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d34cdc37-21a3-458e-9cd7-8f398e91e2f8")
-	)
-	(wire
-		(pts
 			(xy 76.2 90.17) (xy 76.2 91.44)
 		)
 		(stroke
@@ -13167,16 +12650,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 243.84) (xy 52.07 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d3f694-54e1-429c-9e94-8b25a195435c")
-	)
-	(wire
-		(pts
 			(xy 364.49 229.87) (xy 364.49 248.92)
 		)
 		(stroke
@@ -13307,16 +12780,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 302.26) (xy 209.55 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a8d32b-c4dd-4d09-8d6a-eff81517d0cc")
-	)
-	(wire
-		(pts
 			(xy 364.49 224.79) (xy 364.49 229.87)
 		)
 		(stroke
@@ -13394,6 +12857,16 @@
 			(type default)
 		)
 		(uuid "fcc4bd7e-144d-4e7f-9f0f-3d2b58ecb04c")
+	)
+	(wire
+		(pts
+			(xy 93.98 139.7) (xy 91.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3f597c-a7f4-44cf-979a-eb9cb2270ec9")
 	)
 	(wire
 		(pts
@@ -19631,73 +19104,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RFShield_OnePiece")
-		(at 45.72 274.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a4ff0b0-18da-460a-abba-d0269c8a3118")
-		(property "Reference" "SIM_S1"
-			(at 62.23 273.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RFShield_OnePiece"
-			(at 62.23 275.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_97-2002_25.40x25.40mm"
-			(at 45.72 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "One-piece EMI RF shielding cabinet"
-			(at 45.72 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edd6287a-125b-4876-bc76-16a7b774e3b9")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "SIM_S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 370.84 257.81 180)
 		(unit 1)
@@ -20231,6 +19637,73 @@
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
 					(reference "#FLG028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 147.32 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35421051-f5f2-4a02-bf3e-3ac402a85ab6")
+		(property "Reference" "ANT1"
+			(at 149.86 81.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 149.86 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Antenna:NiceRF_SW868-TH13_868Mhz"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f1de224-5bea-4fd0-a84d-52ee9c6351df")
+		)
+		(instances
+			(project "Undroid"
+				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
+					(reference "ANT1")
 					(unit 1)
 				)
 			)
@@ -22020,73 +21493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RFShield_OnePiece")
-		(at 209.55 320.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7722edae-7e9d-4039-b7f4-2e640609fd8f")
-		(property "Reference" "SD_S1"
-			(at 226.06 318.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RFShield_OnePiece"
-			(at 226.06 321.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_97-2002_25.40x25.40mm"
-			(at 209.55 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "One-piece EMI RF shielding cabinet"
-			(at 209.55 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b44b7ffc-373d-4894-bbc0-6d76b72b7800")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "SD_S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 393.7 367.03 0)
 		(unit 1)
@@ -22151,143 +21557,6 @@
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
 					(reference "RAM_GND_VSSQ_R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RFShield_OnePiece")
-		(at 209.55 187.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7afff8ed-64e6-4942-ace9-9e29437aec48")
-		(property "Reference" "USB_S1"
-			(at 226.06 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RFShield_OnePiece"
-			(at 226.06 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_97-2002_25.40x25.40mm"
-			(at 209.55 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "One-piece EMI RF shielding cabinet"
-			(at 209.55 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68c363a7-524e-4e92-b0b8-7f896d6cb886")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "USB_S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna_Shield")
-		(at 147.32 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fb6c3c3-ecba-4fa0-9907-1a44f0dee9c3")
-		(property "Reference" "AE1"
-			(at 151.13 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna_Shield"
-			(at 151.13 83.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna with extra pin for shielding"
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61c427d5-5d09-4fa7-b2a9-edfd0e6e56d7")
-		)
-		(pin "2"
-			(uuid "b5c409c9-327c-48d3-9e42-10631de0f834")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -24535,73 +23804,6 @@
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
 					(reference "#FLG017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RFShield_OnePiece")
-		(at 149.86 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3d59467-2797-4337-a1da-eb287bd42411")
-		(property "Reference" "ANT_S1"
-			(at 166.37 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RFShield_OnePiece"
-			(at 166.37 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_97-2002_25.40x25.40mm"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "One-piece EMI RF shielding cabinet"
-			(at 149.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58ddffce-0e36-4638-88b0-009149da45ab")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "ANT_S1")
 					(unit 1)
 				)
 			)

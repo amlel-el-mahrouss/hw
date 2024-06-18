@@ -17751,7 +17751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f61c473-19ea-4599-a072-768eb34759c6")
-		(property "Reference" "CPU_MAIN1"
+		(property "Reference" "CPU_1"
 			(at 508 81.28 0)
 			(effects
 				(font
@@ -18456,7 +18456,7 @@
 		(instances
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "CPU_MAIN1")
+					(reference "CPU_1")
 					(unit 1)
 				)
 			)

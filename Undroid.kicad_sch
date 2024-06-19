@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Motherboard")
-		(date "2024-06-17")
-		(rev "8")
+		(date "2024-06-19")
+		(rev "9")
 		(company "Zeta")
 	)
 	(lib_symbols
@@ -10315,7 +10315,7 @@
 		(uuid "017115ef-e972-4016-b097-c08a31129500")
 	)
 	(no_connect
-		(at 304.8 377.19)
+		(at 242.57 356.87)
 		(uuid "02ba08f5-fcb2-4831-97cd-742a8a17b417")
 	)
 	(no_connect
@@ -10395,7 +10395,7 @@
 		(uuid "2cdc535e-269c-47db-a47f-8a21fa54a3a4")
 	)
 	(no_connect
-		(at 307.34 377.19)
+		(at 245.11 356.87)
 		(uuid "2d1924fc-b9e4-4795-8701-42e8861f86d2")
 	)
 	(no_connect
@@ -10439,7 +10439,7 @@
 		(uuid "4f5d47dd-515e-413a-bdda-6bb62914acff")
 	)
 	(no_connect
-		(at 312.42 377.19)
+		(at 250.19 356.87)
 		(uuid "51e630b5-a9a6-4436-9131-8af574a104b7")
 	)
 	(no_connect
@@ -10471,7 +10471,7 @@
 		(uuid "5ae2b358-479e-41d2-8325-92b97d71324a")
 	)
 	(no_connect
-		(at 325.12 377.19)
+		(at 262.89 356.87)
 		(uuid "5bcc9566-3bda-45c5-8536-1a98bba31e70")
 	)
 	(no_connect
@@ -10507,11 +10507,11 @@
 		(uuid "7532f304-5a07-40b0-ad66-54f0ba0c3749")
 	)
 	(no_connect
-		(at 309.88 377.19)
+		(at 247.65 356.87)
 		(uuid "75704c2e-0183-4351-bc17-bc38457b36e2")
 	)
 	(no_connect
-		(at 327.66 377.19)
+		(at 265.43 356.87)
 		(uuid "7612f41c-2a03-4433-af59-78dbfa0b5706")
 	)
 	(no_connect
@@ -10643,7 +10643,7 @@
 		(uuid "bce6d0ea-2ece-4350-9f05-72038bd85df7")
 	)
 	(no_connect
-		(at 314.96 377.19)
+		(at 252.73 356.87)
 		(uuid "bd202590-b656-496e-8ea2-53c02b96cd1a")
 	)
 	(no_connect
@@ -10679,7 +10679,7 @@
 		(uuid "d28fa935-fc2a-48ad-82bd-e3fcf6bf643e")
 	)
 	(no_connect
-		(at 317.5 377.19)
+		(at 255.27 356.87)
 		(uuid "d4e1dc2e-7ef4-494f-adaa-edb9daccacbf")
 	)
 	(no_connect
@@ -10687,7 +10687,7 @@
 		(uuid "d532ac11-30da-4f48-a2f6-67a3ba361fcc")
 	)
 	(no_connect
-		(at 322.58 377.19)
+		(at 260.35 356.87)
 		(uuid "d5c7e9fd-ae97-4cdd-8b50-55aaf8120abd")
 	)
 	(no_connect
@@ -10707,7 +10707,7 @@
 		(uuid "de117650-afa4-4e96-800d-7bd190e8ce43")
 	)
 	(no_connect
-		(at 330.2 377.19)
+		(at 267.97 356.87)
 		(uuid "e017e371-011b-455c-a1f1-f4ca1db23bec")
 	)
 	(no_connect
@@ -10775,7 +10775,7 @@
 		(uuid "fbf32613-8bdd-45af-ae69-9ebd6d66a506")
 	)
 	(no_connect
-		(at 320.04 377.19)
+		(at 257.81 356.87)
 		(uuid "ffbffbef-78b5-48da-8446-6218c6824873")
 	)
 	(wire
@@ -12908,16 +12908,6 @@
 		)
 		(uuid "23200444-96ac-49d6-8caa-0096614b1955")
 	)
-	(text "The board also contains EMI shields.\nfor Antennas, SIM, SD, Power..."
-		(exclude_from_sim yes)
-		(at 92.456 383.286 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "2650e2a5-e51b-4917-a729-2d3e54706696")
-	)
 	(text "Bridge MCU"
 		(exclude_from_sim yes)
 		(at 295.402 66.294 0)
@@ -12930,7 +12920,7 @@
 	)
 	(text "Memory (SIM, Flash, SD)"
 		(exclude_from_sim yes)
-		(at 79.248 317.754 0)
+		(at 105.156 326.898 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -12940,7 +12930,7 @@
 	)
 	(text "ARM GPU of SoC"
 		(exclude_from_sim yes)
-		(at 493.522 243.078 0)
+		(at 505.206 242.824 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -12950,7 +12940,7 @@
 	)
 	(text "ARM CPU of SoC"
 		(exclude_from_sim yes)
-		(at 504.19 68.326 0)
+		(at 509.778 61.468 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -12960,13 +12950,23 @@
 	)
 	(text "Power Line"
 		(exclude_from_sim yes)
-		(at 212.09 124.968 0)
+		(at 177.8 178.054 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 			)
 		)
 		(uuid "839e52b4-cb55-4336-a0d1-fe8b0c2bbfd9")
+	)
+	(text "CONN 1x15"
+		(exclude_from_sim yes)
+		(at 259.842 332.486 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "8cb11270-1196-4edc-91d4-9695eb37caee")
 	)
 	(text "DDR3 RAM"
 		(exclude_from_sim yes)
@@ -12980,7 +12980,7 @@
 	)
 	(text "GPRS modem"
 		(exclude_from_sim yes)
-		(at 80.01 47.498 0)
+		(at 73.152 53.848 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -13320,7 +13320,7 @@
 	)
 	(global_label "CONN_NMI_N"
 		(shape input)
-		(at 332.74 377.19 90)
+		(at 270.51 356.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13330,7 +13330,7 @@
 		)
 		(uuid "1b564a7c-7bfb-43fd-85ed-bdad3e2aeb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 332.74 362.2909 90)
+			(at 270.51 341.9709 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13826,7 +13826,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 337.82 377.19 90)
+		(at 275.59 356.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13836,7 +13836,7 @@
 		)
 		(uuid "374cec7d-01a2-470a-9dd1-320c202a48f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.82 368.4597 90)
+			(at 275.59 348.1397 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16070,7 +16070,7 @@
 	)
 	(global_label "RTC_IN"
 		(shape input)
-		(at 335.28 377.19 90)
+		(at 273.05 356.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16080,7 +16080,7 @@
 		)
 		(uuid "b312aae4-ccb9-4454-afd8-6f0c6740bfca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.28 367.7943 90)
+			(at 273.05 347.4743 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17456,7 +17456,7 @@
 	)
 	(global_label "UBOOT"
 		(shape input)
-		(at 340.36 377.19 90)
+		(at 278.13 356.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17466,7 +17466,7 @@
 		)
 		(uuid "ff13947a-7a64-4876-8646-08b2c376dfba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.36 367.9757 90)
+			(at 278.13 347.6557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18596,7 +18596,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x15")
-		(at 322.58 382.27 270)
+		(at 260.35 361.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18605,7 +18605,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fac183e-0d86-466e-b62e-e59d81f92b0d")
 		(property "Reference" "J2"
-			(at 322.58 386.08 90)
+			(at 260.35 365.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +18613,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15"
-			(at 322.58 388.62 90)
+			(at 260.35 368.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18621,7 +18621,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x15_P1.00mm_Vertical"
-			(at 322.58 382.27 0)
+			(at 260.35 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18630,7 +18630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 322.58 382.27 0)
+			(at 260.35 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18639,7 +18639,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 322.58 382.27 0)
+			(at 260.35 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

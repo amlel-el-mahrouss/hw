@@ -10721,12 +10721,6 @@
 		(uuid "15c68345-e443-42b8-aebc-fb2b454ff70f")
 	)
 	(junction
-		(at 219.71 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "175db852-a584-4a7e-a009-da74b2c6cd55")
-	)
-	(junction
 		(at 129.54 346.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10983,6 +10977,10 @@
 	(no_connect
 		(at 530.86 265.43)
 		(uuid "2853e36c-0c86-4960-8214-5d43ff50ff08")
+	)
+	(no_connect
+		(at 227.33 142.24)
+		(uuid "2a1f61e2-2c70-4cb9-8a39-fde397d5328c")
 	)
 	(no_connect
 		(at 414.02 97.79)
@@ -12032,16 +12030,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 138.43) (xy 219.71 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49510f6f-38a8-4539-a619-60a30a74c790")
-	)
-	(wire
-		(pts
 			(xy 326.39 358.14) (xy 347.98 358.14)
 		)
 		(stroke
@@ -12552,16 +12540,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 142.24) (xy 219.71 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a894e8c-4037-4511-b6c7-faf618f8e5b2")
-	)
-	(wire
-		(pts
 			(xy 158.75 322.58) (xy 152.4 322.58)
 		)
 		(stroke
@@ -12759,16 +12737,6 @@
 			(type default)
 		)
 		(uuid "a40c5892-d80f-4bf8-80d9-9dce903a45c3")
-	)
-	(wire
-		(pts
-			(xy 219.71 142.24) (xy 227.33 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c49695-9f3a-4fc4-85d4-af057dba1213")
 	)
 	(wire
 		(pts
@@ -13566,7 +13534,7 @@
 		)
 		(uuid "2993fab8-7222-4448-a8ab-608e2ef06e58")
 	)
-	(text "Bridge MCU+Jack"
+	(text "Bridge MCU"
 		(exclude_from_sim yes)
 		(at 251.206 30.48 0)
 		(effects
@@ -13685,6 +13653,26 @@
 			)
 		)
 		(uuid "c7790125-0b5e-4406-887c-fcd13c127da9")
+	)
+	(text "MicroChip\nNeed the IDE\nfor BridgeOS"
+		(exclude_from_sim yes)
+		(at 199.136 44.45 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "d6ef7517-8a56-4523-9e25-8af54b4c06a0")
+	)
+	(text "All of them are NC"
+		(exclude_from_sim yes)
+		(at 372.618 43.434 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "f8ae6047-17e6-4ece-984a-5e900b1bb1e7")
 	)
 	(text "MBCI VIDEO"
 		(exclude_from_sim yes)
@@ -17713,28 +17701,6 @@
 		(uuid "bbe3572e-00e5-426a-a8ab-4e9f2bec757a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 342.6967 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWR_TST"
-		(shape input)
-		(at 213.36 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bce299a8-a63f-4aff-a6ec-f4640e2e2542")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.2711 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24730,72 +24696,6 @@
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
 					(reference "RAM_GND_VSS_R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 219.71 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b358c14c-2dd0-482d-b277-472895121955")
-		(property "Reference" "#FLG017"
-			(at 219.71 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 219.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 219.71 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1844ecfc-7efe-4537-8899-90f10f791dd4")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "#FLG017")
 					(unit 1)
 				)
 			)

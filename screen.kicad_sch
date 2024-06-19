@@ -10,4 +10,48 @@
 		(company "Zeta")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 13.97 15.24)
+		(end 166.37 193.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 61d98dd8-d036-48a8-bd97-9398f5f8b407)
+	)
+	(rectangle
+		(start 170.18 22.86)
+		(end 275.59 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7727da93-69fa-45a4-acd5-382a8fc485c1)
+	)
+	(text "ScreenBridge\n"
+		(exclude_from_sim no)
+		(at 180.594 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ebe0561-5106-4045-8401-6a7133f91326")
+	)
+	(text "Touchscreen"
+		(exclude_from_sim no)
+		(at 21.336 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d81f75f-742e-468e-9e91-24273e592313")
+	)
 )

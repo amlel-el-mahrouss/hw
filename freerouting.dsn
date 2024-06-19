@@ -14,17 +14,29 @@
         (index 0)
       )
     )
-    (layer B.Cu
+    (layer In1.Cu
       (type signal)
       (property
         (index 1)
       )
     )
-    (boundary
-      (path pcb 0  183301 -16401.1  182900 -124200  182300 -124200  137911 -124190
-            119273 -103273  87360.4 -103407  88106.8 -16196  183301 -16401.1)
+    (layer In2.Cu
+      (type signal)
+      (property
+        (index 2)
+      )
     )
-    (via "Via[0-1]_600:300_um")
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (boundary
+      (path pcb 0  182900 -124200  182300 -124200  137911 -124190  119273 -103273
+            87360.4 -103407  87700 -16500  183301 -16401.1  182900 -124200)
+    )
+    (via "Via[0-3]_600:300_um")
     (rule
       (width 200)
       (clearance 200)
@@ -33,6 +45,13 @@
     )
   )
   (placement
+    (component Connector_PinHeader_1.00mm:PinHeader_1x15_P1.00mm_Vertical
+      (place MBCI_VIDEO1 123700.000000 -86000.000000 front 0.000000 (PN Conn_01x15))
+      (place MBCI_NETWORK1 117400.000000 -86000.000000 front 0.000000 (PN Conn_01x15))
+    )
+    (component "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+      (place MBCI_0 130430.000000 -91230.000000 front 0.000000 (PN "AVR32DB32x-xRXB"))
+    )
     (component "Allwinner:QFP40P2200X2200X160-177N"
       (place GPU_1 122816.450000 -69400.000000 front 0.000000 (PN "Allwinner-A13"))
     )
@@ -40,32 +59,32 @@
       (place D1 125600.000000 -20400.000000 front 0.000000 (PN LED))
     )
     (component "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm"
-      (place DDR_RAM1 142800.000000 -70000.000000 front 0.000000 (PN AS4C256M16D3))
+      (place DDR_RAM1 143300.000000 -68500.000000 front 0.000000 (PN AS4C256M16D3))
     )
     (component Resistor_SMD:R_0201_0603Metric
-      (place CC2_R1 162945.000000 -93500.000000 front 0.000000 (PN R))
-      (place GND_R1 172445.000000 -97200.000000 front 0.000000 (PN R))
-      (place CPU_GND_VREFCA1 143300.000000 -92500.000000 front 0.000000 (PN R))
-      (place CC1_R1 152400.000000 -97300.000000 front 0.000000 (PN R))
+      (place CC2_R1 168220.000000 -94600.000000 front 0.000000 (PN R))
+      (place GND_R1 170580.000000 -107700.000000 front 0.000000 (PN R))
+      (place CPU_GND_CPU1 158100.000000 -88100.000000 front 0.000000 (PN R))
+      (place RAM_GND_VSSQ_R1 143040.000000 -99800.000000 front 0.000000 (PN R))
+      (place RAM_GND_VSS_R1 143120.000000 -87600.000000 front 0.000000 (PN R))
+      (place RCPU_GND_VDD1 143040.000000 -96000.000000 front 0.000000 (PN R))
+      (place VSS_FL_1 178700.000000 -34600.000000 front 0.000000 (PN R))
+      (place CC1_R1 157745.000000 -94500.000000 front 0.000000 (PN R))
       (place CPU_GND_VREFQ1 143145.000000 -80300.000000 front 0.000000 (PN R))
     )
     (component Resistor_SMD:R_0201_0603Metric::1
       (place VSS_FL_2 162580.000000 -34725.000000 front 0.000000 (PN R))
       (place VSS_SD_VSS1 95270.000000 -68800.000000 front 0.000000 (PN R))
-      (place CPU_GND_CPU1 158100.000000 -87775.000000 front 0.000000 (PN R))
-      (place CPU_GND_USB1 171180.000000 -87900.000000 front 0.000000 (PN R))
-      (place R_VDD_3V3 126745.000000 -54000.000000 front 0.000000 (PN R))
-      (place RAM_GND_VSSQ_R1 140745.000000 -102000.000000 front 0.000000 (PN R))
-      (place RAM_GND_VSS_R1 139300.000000 -87900.000000 front 0.000000 (PN R))
-      (place RVSS_S_1 100220.000000 -87200.000000 front 0.000000 (PN R))
-      (place RCPU_GND_VDD1 143300.000000 -95000.000000 front 0.000000 (PN R))
-      (place VSS_FL_1 178630.000000 -34375.000000 front 0.000000 (PN R))
-      (place RVCC_FL_2 155300.000000 -20300.000000 front 0.000000 (PN R))
+      (place CPU_GND_USB1 170645.000000 -88100.000000 front 0.000000 (PN R))
+      (place R_VDD_3V3 126645.000000 -54800.000000 front 0.000000 (PN R))
+      (place CPU_GND_VREFCA1 143100.000000 -92000.000000 front 0.000000 (PN R))
+      (place RVSS_S_1 99645.000000 -91500.000000 front 0.000000 (PN R))
+      (place VCC_FL_2 155300.000000 -20300.000000 front 0.000000 (PN R))
       (place VBAT_R1 136795.000000 -24830.000000 front 0.000000 (PN R))
-      (place VCC_FL_1 177830.000000 -20300.000000 front 0.000000 (PN R))
-      (place MCU_PWR_R1 148500.000000 -55200.000000 front 0.000000 (PN R))
-      (place NETLIGHT_R1 143795.000000 -27450.000000 front 0.000000 (PN R))
-      (place GND_BRIDGE_R1 163945.000000 -55200.000000 front 0.000000 (PN R))
+      (place VCC_FL_1 173345.000000 -20300.000000 front 0.000000 (PN R))
+      (place MCU_PWR_R1 145000.000000 -54900.000000 front 0.000000 (PN R))
+      (place NETLIGHT_R1 127545.000000 -26600.000000 front 0.000000 (PN R))
+      (place GND_BRIDGE_R1 163045.000000 -55000.000000 front 0.000000 (PN R))
       (place VSS_SD_VDD1 105900.000000 -68800.000000 front 0.000000 (PN R))
       (place R_AUDIO1 175270.000000 -39100.000000 front 0.000000 (PN R))
     )
@@ -79,14 +98,14 @@
       (place ANT1 92300.000000 -22100.000000 front 180.000000 (PN Antenna))
     )
     (component "Connector_Card:microSD_HC_Molex_104031-0811"
-      (place SD_SLOT_1 101200.000000 -58600.000000 front 90.000000 (PN Micro_SD_Card))
+      (place SD_SLOT_1 98287.500000 -58700.000000 front 90.000000 (PN Micro_SD_Card))
     )
-    (component Connector_PinHeader_1.00mm:PinHeader_1x15_P1.00mm_Vertical
-      (place J2 112000.000000 -88900.000000 front 90.000000 (PN Conn_01x15))
+    (component Connector_PinHeader_1.00mm:PinHeader_1x15_P1.00mm_Vertical::1
+      (place MBCI_IO1 111100.000000 -86100.000000 front 0.000000 (PN Conn_01x15))
     )
     (component Resistor_SMD:R_0201_0603Metric::2
-      (place RVCC_S_1 109300.000000 -76880.000000 front 90.000000 (PN R))
-      (place CPU_GND_VDDQ1 145620.000000 -84200.000000 front 0.000000 (PN R))
+      (place VCC_S_1 109300.000000 -76880.000000 front 90.000000 (PN R))
+      (place CPU_GND_VDDQ1 143180.000000 -84100.000000 front 0.000000 (PN R))
     )
     (component Connector_Audio:Jack_3.5mm_PJ320D_Horizontal
       (place J1 175630.000000 -47900.000000 front 0.000000 (PN AudioJack2))
@@ -96,16 +115,102 @@
       (place FLASH_MEM_OS1 155225.000000 -28115.000000 front 0.000000 (PN XTSD08G))
     )
     (component RF_GSM:SIMCom_SIM800C
-      (place SIM_CHIP1 133150.000000 -39750.000000 front 0.000000 (PN SIM7020C))
+      (place SIM_CHIP1 135400.000000 -40500.000000 front 0.000000 (PN SIM7020C))
     )
     (component "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-      (place BRIDGE_CHIP1 150925.000000 -44405.000000 front 0.000000 (PN "ATSAME70J19A-AN"))
+      (place BRIDGE_CHIP1 154850.000000 -44375.000000 front 0.000000 (PN "ATSAME70J19A-AN"))
     )
     (component Connector_JAE:JAE_SIM_Card_SF72S006
-      (place SIM_SLOT_1 101415.000000 -78980.000000 front -90.000000 (PN JAE_SIM_Card_SF72S006))
+      (place SIM_SLOT_1 96845.000000 -83090.000000 front 180.000000 (PN JAE_SIM_Card_SF72S006))
     )
   )
   (library
+    (image Connector_PinHeader_1.00mm:PinHeader_1x15_P1.00mm_Vertical
+      (outline (path signal 120  -695 685  0 685))
+      (outline (path signal 120  -695 0  -695 685))
+      (outline (path signal 120  -695 -685  -695 -14560))
+      (outline (path signal 120  -695 -685  -608.276 -685))
+      (outline (path signal 120  -695 -14560  -394.493 -14560))
+      (outline (path signal 120  394.493 -14560  695 -14560))
+      (outline (path signal 120  608.276 -685  695 -685))
+      (outline (path signal 120  695 -685  695 -14560))
+      (outline (path signal 50  -1150 1000  -1150 -15000))
+      (outline (path signal 50  -1150 -15000  1150 -15000))
+      (outline (path signal 50  1150 1000  -1150 1000))
+      (outline (path signal 50  1150 -15000  1150 1000))
+      (outline (path signal 100  -635 182.5  -317.5 500))
+      (outline (path signal 100  -635 -14500  -635 182.5))
+      (outline (path signal 100  -317.5 500  635 500))
+      (outline (path signal 100  635 500  635 -14500))
+      (outline (path signal 100  635 -14500  -635 -14500))
+      (pin Rect[A]Pad_850x850_um 1 0 0)
+      (pin Oval[A]Pad_850x850_um 2 0 -1000)
+      (pin Oval[A]Pad_850x850_um 3 0 -2000)
+      (pin Oval[A]Pad_850x850_um 4 0 -3000)
+      (pin Oval[A]Pad_850x850_um 5 0 -4000)
+      (pin Oval[A]Pad_850x850_um 6 0 -5000)
+      (pin Oval[A]Pad_850x850_um 7 0 -6000)
+      (pin Oval[A]Pad_850x850_um 8 0 -7000)
+      (pin Oval[A]Pad_850x850_um 9 0 -8000)
+      (pin Oval[A]Pad_850x850_um 10 0 -9000)
+      (pin Oval[A]Pad_850x850_um 11 0 -10000)
+      (pin Oval[A]Pad_850x850_um 12 0 -11000)
+      (pin Oval[A]Pad_850x850_um 13 0 -12000)
+      (pin Oval[A]Pad_850x850_um 14 0 -13000)
+      (pin Oval[A]Pad_850x850_um 15 0 -14000)
+    )
+    (image "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+      (outline (path signal 120  -2610 2135  -2610 2370))
+      (outline (path signal 120  -2610 -2610  -2610 -2135))
+      (outline (path signal 120  -2135 2610  -2310 2610))
+      (outline (path signal 120  -2135 -2610  -2610 -2610))
+      (outline (path signal 120  2135 2610  2610 2610))
+      (outline (path signal 120  2135 -2610  2610 -2610))
+      (outline (path signal 120  2610 2610  2610 2135))
+      (outline (path signal 120  2610 -2610  2610 -2135))
+      (outline (path signal 50  -3130 3130  -3130 -3130))
+      (outline (path signal 50  -3130 -3130  3130 -3130))
+      (outline (path signal 50  3130 3130  -3130 3130))
+      (outline (path signal 50  3130 -3130  3130 3130))
+      (outline (path signal 100  -2500 1500  -1500 2500))
+      (outline (path signal 100  -2500 -2500  -2500 1500))
+      (outline (path signal 100  -1500 2500  2500 2500))
+      (outline (path signal 100  2500 2500  2500 -2500))
+      (outline (path signal 100  2500 -2500  -2500 -2500))
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 1 -2437.5 1750)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 2 -2437.5 1250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 3 -2437.5 750)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 4 -2437.5 250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 5 -2437.5 -250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 6 -2437.5 -750)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 7 -2437.5 -1250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 8 -2437.5 -1750)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 9 -1750 -2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 10 -1250 -2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 11 -750 -2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 12 -250 -2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 13 250 -2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 14 750 -2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 15 1250 -2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 16 1750 -2437.5)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 17 2437.5 -1750)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 18 2437.5 -1250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 19 2437.5 -750)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 20 2437.5 -250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 21 2437.5 250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 22 2437.5 750)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 23 2437.5 1250)
+      (pin RoundRect[T]Pad_875x250_62.738_um_0.000000_0 24 2437.5 1750)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 25 1750 2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 26 1250 2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 27 750 2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 28 250 2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 29 -250 2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 30 -750 2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 31 -1250 2437.5)
+      (pin RoundRect[T]Pad_250x875_62.738_um_0.000000_0 32 -1750 2437.5)
+      (pin Rect[T]Pad_3100x3100_um 33 0 0)
+    )
     (image "Allwinner:QFP40P2200X2200X160-177N"
       (outline (path signal 300  -12117.9 8545.36  -12135.1 8475.65  -12182.7 8421.91  -12249.8 8396.45
             -12321.1 8405.11  -12380.2 8445.89  -12413.5 8509.46  -12413.5 8581.26
@@ -806,39 +911,39 @@
       (pin Rect[T]Pad_1900x1350_um 11@2 3730 -5375)
       (pin Rect[T]Pad_1170x1800_um 11@3 5755 5100)
     )
-    (image Connector_PinHeader_1.00mm:PinHeader_1x15_P1.00mm_Vertical
-      (outline (path signal 120  -695 685  0 685))
-      (outline (path signal 120  -695 0  -695 685))
-      (outline (path signal 120  695 -685  695 -14560))
-      (outline (path signal 120  608.276 -685  695 -685))
-      (outline (path signal 120  -695 -685  -608.276 -685))
-      (outline (path signal 120  -695 -685  -695 -14560))
-      (outline (path signal 120  394.493 -14560  695 -14560))
-      (outline (path signal 120  -695 -14560  -394.493 -14560))
-      (outline (path signal 50  1150 1000  -1150 1000))
-      (outline (path signal 50  -1150 1000  -1150 -15000))
-      (outline (path signal 50  1150 -15000  1150 1000))
-      (outline (path signal 50  -1150 -15000  1150 -15000))
-      (outline (path signal 100  635 500  635 -14500))
-      (outline (path signal 100  -317.5 500  635 500))
-      (outline (path signal 100  -635 182.5  -317.5 500))
-      (outline (path signal 100  635 -14500  -635 -14500))
+    (image Connector_PinHeader_1.00mm:PinHeader_1x15_P1.00mm_Vertical::1
       (outline (path signal 100  -635 -14500  -635 182.5))
-      (pin Rect[A]Pad_850x850_um 1 0 0)
-      (pin Oval[A]Pad_850x850_um 2 0 -1000)
-      (pin Oval[A]Pad_850x850_um 3 0 -2000)
-      (pin Oval[A]Pad_850x850_um 4 0 -3000)
-      (pin Oval[A]Pad_850x850_um 5 0 -4000)
-      (pin Oval[A]Pad_850x850_um 6 0 -5000)
-      (pin Oval[A]Pad_850x850_um 7 0 -6000)
-      (pin Oval[A]Pad_850x850_um 8 0 -7000)
-      (pin Oval[A]Pad_850x850_um 9 0 -8000)
-      (pin Oval[A]Pad_850x850_um 10 0 -9000)
-      (pin Oval[A]Pad_850x850_um 11 0 -10000)
-      (pin Oval[A]Pad_850x850_um 12 0 -11000)
-      (pin Oval[A]Pad_850x850_um 13 0 -12000)
-      (pin Oval[A]Pad_850x850_um 14 0 -13000)
+      (outline (path signal 100  635 -14500  -635 -14500))
+      (outline (path signal 100  -635 182.5  -317.5 500))
+      (outline (path signal 100  -317.5 500  635 500))
+      (outline (path signal 100  635 500  635 -14500))
+      (outline (path signal 50  -1150 -15000  1150 -15000))
+      (outline (path signal 50  1150 -15000  1150 1000))
+      (outline (path signal 50  -1150 1000  -1150 -15000))
+      (outline (path signal 50  1150 1000  -1150 1000))
+      (outline (path signal 120  -695 -14560  -394.493 -14560))
+      (outline (path signal 120  394.493 -14560  695 -14560))
+      (outline (path signal 120  -695 -685  -695 -14560))
+      (outline (path signal 120  -695 -685  -608.276 -685))
+      (outline (path signal 120  608.276 -685  695 -685))
+      (outline (path signal 120  695 -685  695 -14560))
+      (outline (path signal 120  -695 0  -695 685))
+      (outline (path signal 120  -695 685  0 685))
       (pin Oval[A]Pad_850x850_um 15 0 -14000)
+      (pin Oval[A]Pad_850x850_um 14 0 -13000)
+      (pin Oval[A]Pad_850x850_um 13 0 -12000)
+      (pin Oval[A]Pad_850x850_um 12 0 -11000)
+      (pin Oval[A]Pad_850x850_um 11 0 -10000)
+      (pin Oval[A]Pad_850x850_um 10 0 -9000)
+      (pin Oval[A]Pad_850x850_um 9 0 -8000)
+      (pin Oval[A]Pad_850x850_um 8 0 -7000)
+      (pin Oval[A]Pad_850x850_um 7 0 -6000)
+      (pin Oval[A]Pad_850x850_um 6 0 -5000)
+      (pin Oval[A]Pad_850x850_um 5 0 -4000)
+      (pin Oval[A]Pad_850x850_um 4 0 -3000)
+      (pin Oval[A]Pad_850x850_um 3 0 -2000)
+      (pin Oval[A]Pad_850x850_um 2 0 -1000)
+      (pin Rect[A]Pad_850x850_um 1 0 0)
     )
     (image Resistor_SMD:R_0201_0603Metric::2
       (outline (path signal 50  700 350  700 -350))
@@ -888,8 +993,12 @@
       (pin Rect[T]Pad_1200x2500_um S 4925 -3250)
       (pin Rect[T]Pad_1200x2500_um T 3825 3250)
       (keepout "" (circle F.Cu 2000 -4775 0))
+      (keepout "" (circle In1.Cu 2000 -4775 0))
+      (keepout "" (circle In2.Cu 2000 -4775 0))
       (keepout "" (circle B.Cu 2000 -4775 0))
       (keepout "" (circle F.Cu 2000 2225 0))
+      (keepout "" (circle In1.Cu 2000 2225 0))
+      (keepout "" (circle In2.Cu 2000 2225 0))
       (keepout "" (circle B.Cu 2000 2225 0))
     )
     (image "Package_LGA:LGA-8_8x6mm_P1.27mm"
@@ -1147,7 +1256,18 @@
     )
     (padstack Oval[A]Pad_850x850_um
       (shape (path F.Cu 850  0 0  0 0))
+      (shape (path In1.Cu 850  0 0  0 0))
+      (shape (path In2.Cu 850  0 0  0 0))
       (shape (path B.Cu 850  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_250x875_62.738_um_0.000000_0
+      (shape (polygon F.Cu 0  -125.238 375  -120.462 399.009  -106.862 419.362  -86.509 432.962
+            -62.5 437.738  62.5 437.738  86.509 432.962  106.862 419.362
+            120.462 399.009  125.238 375  125.238 -375  120.462 -399.009
+            106.862 -419.362  86.509 -432.962  62.5 -437.738  -62.5 -437.738
+            -86.509 -432.962  -106.862 -419.362  -120.462 -399.009  -125.238 -375
+            -125.238 375))
       (attach off)
     )
     (padstack RoundRect[T]Pad_300x1550_75.285_um_0.000000_0
@@ -1195,6 +1315,15 @@
             -400.761 400))
       (attach off)
     )
+    (padstack RoundRect[T]Pad_875x250_62.738_um_0.000000_0
+      (shape (polygon F.Cu 0  -437.738 62.5  -432.962 86.509  -419.362 106.862  -399.009 120.462
+            -375 125.238  375 125.238  399.009 120.462  419.362 106.862
+            432.962 86.509  437.738 62.5  437.738 -62.5  432.962 -86.509
+            419.362 -106.862  399.009 -120.462  375 -125.238  -375 -125.238
+            -399.009 -120.462  -419.362 -106.862  -432.962 -86.509  -437.738 -62.5
+            -437.738 62.5))
+      (attach off)
+    )
     (padstack RoundRect[T]Pad_1200x600_150.571_um_0.000000_0
       (shape (polygon F.Cu 0  -600.571 150  -589.109 207.621  -556.47 256.47  -507.621 289.109
             -449.999 300.57  450 300.571  507.621 289.109  556.47 256.47
@@ -1211,6 +1340,18 @@
             678.592 -678.592  598.459 -732.134  503.936 -750.935  -503.937 -750.936
             -598.459 -732.134  -678.592 -678.592  -732.134 -598.459  -750.935 -503.936
             -750.936 503.937))
+      (shape (polygon In1.Cu 0  -750.936 503.937  -732.134 598.459  -678.592 678.592
+            -598.459 732.134  -503.936 750.935  503.937 750.936  598.459 732.134
+            678.592 678.592  732.134 598.459  750.935 503.936  750.936 -503.937
+            732.134 -598.459  678.592 -678.592  598.459 -732.134  503.936 -750.935
+            -503.937 -750.936  -598.459 -732.134  -678.592 -678.592  -732.134 -598.459
+            -750.935 -503.936  -750.936 503.937))
+      (shape (polygon In2.Cu 0  -750.936 503.937  -732.134 598.459  -678.592 678.592
+            -598.459 732.134  -503.936 750.935  503.937 750.936  598.459 732.134
+            678.592 678.592  732.134 598.459  750.935 503.936  750.936 -503.937
+            732.134 -598.459  678.592 -678.592  598.459 -732.134  503.936 -750.935
+            -503.937 -750.936  -598.459 -732.134  -678.592 -678.592  -732.134 -598.459
+            -750.935 -503.936  -750.936 503.937))
       (shape (polygon B.Cu 0  -750.936 503.937  -732.134 598.459  -678.592 678.592  -598.459 732.134
             -503.936 750.935  503.937 750.936  598.459 732.134  678.592 678.592
             732.134 598.459  750.935 503.936  750.936 -503.937  732.134 -598.459
@@ -1258,6 +1399,10 @@
       (shape (rect F.Cu -150 -300 150 300))
       (attach off)
     )
+    (padstack Rect[T]Pad_3100x3100_um
+      (shape (rect F.Cu -1550 -1550 1550 1550))
+      (attach off)
+    )
     (padstack Rect[T]Pad_450x2400_um
       (shape (rect F.Cu -225 -1200 225 1200))
       (attach off)
@@ -1288,6 +1433,8 @@
     )
     (padstack Rect[A]Pad_850x850_um
       (shape (rect F.Cu -425 -425 425 425))
+      (shape (rect In1.Cu -425 -425 425 425))
+      (shape (rect In2.Cu -425 -425 425 425))
       (shape (rect B.Cu -425 -425 425 425))
       (attach off)
     )
@@ -1331,16 +1478,19 @@
       (shape (rect F.Cu -950 -675 950 675))
       (attach off)
     )
-    (padstack "Via[0-1]_600:300_um"
+    (padstack "Via[0-3]_600:300_um"
       (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (shape (circle In2.Cu 600))
       (shape (circle B.Cu 600))
       (attach off)
     )
   )
   (network
     (net MCU_PWR
-      (pins MCU_PWR_R1-1 BRIDGE_CHIP1-4 BRIDGE_CHIP1-10 BRIDGE_CHIP1-13 BRIDGE_CHIP1-24
-        BRIDGE_CHIP1-42 BRIDGE_CHIP1-52 BRIDGE_CHIP1-58 BRIDGE_CHIP1-61 BRIDGE_CHIP1-64)
+      (pins MBCI_0-18 MBCI_0-28 MCU_PWR_R1-1 BRIDGE_CHIP1-4 BRIDGE_CHIP1-10 BRIDGE_CHIP1-13
+        BRIDGE_CHIP1-24 BRIDGE_CHIP1-42 BRIDGE_CHIP1-52 BRIDGE_CHIP1-58 BRIDGE_CHIP1-61
+        BRIDGE_CHIP1-64)
     )
     (net +3.3V
       (pins CPU_1-4 CPU_1-5 CPU_1-9 CPU_1-11 CPU_1-16 CPU_1-23 CPU_1-30 CPU_1-35 CPU_1-43
@@ -1355,11 +1505,12 @@
       (pins BRIDGE_CHIP1-3)
     )
     (net GND
-      (pins D1-1 CC2_R1-1 VSS_FL_2-2 GND_R1-1 CPU_GND_CPU1-1 CPU_1-84 CPU_1-86 CPU_1-87
-        CPU_1-88 CPU_1-89 CPU_1-90 CPU_GND_USB1-1 RAM_GND_VSS_R1-1 RVSS_S_1-2 VSS_FL_1-2
-        CC1_R1-1 SIM_CHIP1-8 SIM_CHIP1-12 SIM_CHIP1-13 SIM_CHIP1-19 SIM_CHIP1-21 SIM_CHIP1-24
-        SIM_CHIP1-27 SIM_CHIP1-30 SIM_CHIP1-31 SIM_CHIP1-33 SIM_CHIP1-36 SIM_CHIP1-37
-        SIM_CHIP1-39 BRIDGE_CHIP1-5 BRIDGE_CHIP1-45 GND_BRIDGE_R1-2 R_AUDIO1-2)
+      (pins MBCI_VIDEO1-15 MBCI_NETWORK1-15 D1-1 CC2_R1-1 VSS_FL_2-2 GND_R1-1 CPU_GND_CPU1-1
+        CPU_1-84 CPU_1-86 CPU_1-87 CPU_1-88 CPU_1-89 CPU_1-90 CPU_GND_USB1-1 RAM_GND_VSS_R1-1
+        RVSS_S_1-2 VSS_FL_1-2 MBCI_IO1-15 CC1_R1-1 SIM_CHIP1-8 SIM_CHIP1-12 SIM_CHIP1-13
+        SIM_CHIP1-19 SIM_CHIP1-21 SIM_CHIP1-24 SIM_CHIP1-27 SIM_CHIP1-30 SIM_CHIP1-31
+        SIM_CHIP1-33 SIM_CHIP1-36 SIM_CHIP1-37 SIM_CHIP1-39 BRIDGE_CHIP1-5 BRIDGE_CHIP1-45
+        GND_BRIDGE_R1-2 R_AUDIO1-2)
     )
     (net "unconnected-(BRIDGE_CHIP1-DP-Pad60)"
       (pins BRIDGE_CHIP1-60)
@@ -1407,7 +1558,7 @@
       (pins RAM_GND_VSSQ_R1-2)
     )
     (net RESET
-      (pins CPU_1-159 J2-2 BRIDGE_CHIP1-36)
+      (pins MBCI_0-26 CPU_1-159 MBCI_IO1-2 BRIDGE_CHIP1-36)
     )
     (net "unconnected-(CPU_1A-UDM1-Pad95)"
       (pins CPU_1-95)
@@ -1440,7 +1591,7 @@
       (pins SIM_CHIP1-14 BRIDGE_CHIP1-34 SIM_SLOT_1-C6)
     )
     (net CONN_NMI_N
-      (pins CPU_1-158 J2-4)
+      (pins CPU_1-158 MBCI_IO1-4)
     )
     (net DCD1
       (pins SIM_CHIP1-5 BRIDGE_CHIP1-30)
@@ -1716,10 +1867,10 @@
       (pins VSS_FL_2-1 FLASH_MEM_OS1-4)
     )
     (net "Net-(FLASH_MEM_OS1-VDD)"
-      (pins RVCC_FL_2-2 FLASH_MEM_OS1-8)
+      (pins VCC_FL_2-2 FLASH_MEM_OS1-8)
     )
     (net RTC_IN
-      (pins CPU_1-92 J2-3 SIM_CHIP1-16)
+      (pins CPU_1-92 MBCI_IO1-3 SIM_CHIP1-16)
     )
     (net RAM_RST
       (pins DDR_RAM1-T2 CPU_1-70)
@@ -1734,7 +1885,7 @@
       (pins SIM_CHIP1-41 NETLIGHT_R1-2)
     )
     (net UBOOT
-      (pins CPU_1-157 J2-1)
+      (pins CPU_1-157 MBCI_IO1-1)
     )
     (net RTC_OUT
       (pins CPU_1-91 SD_SLOT_1-5 FLASH_MEM_MASS1-3 FLASH_MEM_OS1-3 SIM_SLOT_1-C3)
@@ -1752,7 +1903,7 @@
       (pins RVSS_S_1-1 SIM_SLOT_1-C5)
     )
     (net "Net-(SIM_SLOT_1-VCC)"
-      (pins RVCC_S_1-1 SIM_SLOT_1-C1)
+      (pins VCC_S_1-1 SIM_SLOT_1-C1)
     )
     (net "Net-(D1-A)"
       (pins D1-2 NETLIGHT_R1-1)
@@ -1791,7 +1942,7 @@
       (pins SIM_SLOT_1-CSW)
     )
     (net VBUS_USBC
-      (pins VSS_SD_VSS1-2 POWER_USB_C1-B9 POWER_USB_C1-A9 RVCC_FL_2-1 RVCC_S_1-2 VCC_FL_1-1
+      (pins VSS_SD_VSS1-2 POWER_USB_C1-B9 POWER_USB_C1-A9 VCC_FL_2-1 VCC_S_1-2 VCC_FL_1-1
         CPU_GND_VDDQ1-1 VSS_SD_VDD1-2)
     )
     (net VREFDQ
@@ -1800,38 +1951,38 @@
     (net VREFCA
       (pins CPU_GND_VREFCA1-1)
     )
-    (net "unconnected-(J2-Pin_6-Pad6)"
-      (pins J2-6)
+    (net DAT4_N
+      (pins MBCI_NETWORK1-5 MBCI_0-31)
     )
-    (net "unconnected-(J2-Pin_14-Pad14)"
-      (pins J2-14)
+    (net "unconnected-(MBCI_0-VDDIO2-Pad10)"
+      (pins MBCI_0-10)
     )
-    (net "unconnected-(J2-Pin_5-Pad5)"
-      (pins J2-5)
+    (net ALPHA_V
+      (pins MBCI_VIDEO1-4 MBCI_0-9)
     )
-    (net "unconnected-(J2-Pin_9-Pad9)"
-      (pins J2-9)
+    (net GREEN_V
+      (pins MBCI_VIDEO1-2 MBCI_0-21)
     )
-    (net "unconnected-(J2-Pin_11-Pad11)"
-      (pins J2-11)
+    (net "Net-(MBCI_0-AGND)"
+      (pins MBCI_0-19)
     )
-    (net "unconnected-(J2-Pin_12-Pad12)"
-      (pins J2-12)
+    (net "unconnected-(MBCI_0-UPDI-Pad27)"
+      (pins MBCI_0-27)
     )
-    (net "unconnected-(J2-Pin_15-Pad15)"
-      (pins J2-15)
+    (net VSYNC_V
+      (pins MBCI_VIDEO1-6 MBCI_0-7)
     )
-    (net "unconnected-(J2-Pin_7-Pad7)"
-      (pins J2-7)
+    (net "unconnected-(MBCI_0-PF3-Pad23)"
+      (pins MBCI_0-23)
     )
-    (net "unconnected-(J2-Pin_13-Pad13)"
-      (pins J2-13)
+    (net "unconnected-(MBCI_0-PC0-Pad6)"
+      (pins MBCI_0-6)
     )
-    (net "unconnected-(J2-Pin_10-Pad10)"
-      (pins J2-10)
+    (net "Net-(MBCI_0-GND-Pad29)"
+      (pins MBCI_0-29 MBCI_0-33)
     )
-    (net "unconnected-(J2-Pin_8-Pad8)"
-      (pins J2-8)
+    (net "unconnected-(MBCI_0-PD4-Pad14)"
+      (pins MBCI_0-14)
     )
     (net "Net-(CPU_GND_VDDQ1-Pad2)"
       (pins DDR_RAM1-H9 DDR_RAM1-H2 DDR_RAM1-F1 DDR_RAM1-E9 DDR_RAM1-D2 DDR_RAM1-C9
@@ -2119,38 +2270,161 @@
     (net "unconnected-(SIM_SLOT_1-PadSH)_8"
       (pins SIM_SLOT_1-SH@6)
     )
-    (class kicad_default "" +3.3V A0 A1 "A10{slash}AP" A11 "A12{slash}BC_N"
-      A13 A14 A2 A3 A4 A5 A6 A7 A8 A9 CMD_F1 CMD_F2 CONN_NMI_N CTS1 DCD1 DQ00
-      DQ01 DQ02 DQ03 DQ04 DQ05 DQ06 DQ07 DQ08 DQ09 DQ10 DQ11 DQ12 DQ13 DQ14
-      DQ15 DTR1 GND GSM_GPIO_0 GSM_GPIO_1 GSM_IO GSM_RST GSM_STATUS GSM_VPP
-      LDM_RAM MCU_PWR "Net-(ANT1-A)" "Net-(BRIDGE_CHIP1-GND-Pad14)" "Net-(CPU_1A-GND)"
-      "Net-(CPU_1A-SVREF)" "Net-(CPU_GND_VDDQ1-Pad2)" "Net-(D1-A)" "Net-(DDR_RAM1-VDD-PadB2)"
-      "Net-(DDR_RAM1-VREFCA)" "Net-(DDR_RAM1-VREFDQ)" "Net-(DDR_RAM1-VSS-PadA9)"
-      "Net-(DDR_RAM1-VSSQ-PadB1)" "Net-(FLASH_MEM_MASS1-VDD)" "Net-(FLASH_MEM_MASS1-VSS)"
-      "Net-(FLASH_MEM_OS1-VDD)" "Net-(FLASH_MEM_OS1-VSS)" "Net-(GND_R1-Pad2)"
-      "Net-(J1-PadS)" "Net-(POWER_USB_C1-CC1)" "Net-(POWER_USB_C1-CC2)" "Net-(SD_SLOT_1-VDD)"
+    (net DAT0_N
+      (pins MBCI_NETWORK1-1 MBCI_0-3)
+    )
+    (net "unconnected-(MBCI_0-PF4-Pad24)"
+      (pins MBCI_0-24)
+    )
+    (net HSYNC_V
+      (pins MBCI_VIDEO1-5 MBCI_0-8)
+    )
+    (net DAT1_N
+      (pins MBCI_NETWORK1-2 MBCI_0-2)
+    )
+    (net AVAIL_N
+      (pins MBCI_NETWORK1-6 MBCI_0-30)
+    )
+    (net DAT3_N
+      (pins MBCI_NETWORK1-4 MBCI_0-32)
+    )
+    (net "unconnected-(MBCI_0-PA7-Pad5)"
+      (pins MBCI_0-5)
+    )
+    (net "unconnected-(MBCI_0-PD5-Pad15)"
+      (pins MBCI_0-15)
+    )
+    (net "unconnected-(MBCI_0-PD6-Pad16)"
+      (pins MBCI_0-16)
+    )
+    (net "unconnected-(MBCI_0-PF5-Pad25)"
+      (pins MBCI_0-25)
+    )
+    (net "unconnected-(MBCI_0-PD1-Pad11)"
+      (pins MBCI_0-11)
+    )
+    (net "unconnected-(MBCI_0-PD2-Pad12)"
+      (pins MBCI_0-12)
+    )
+    (net "unconnected-(MBCI_0-PA6-Pad4)"
+      (pins MBCI_0-4)
+    )
+    (net BLUE_V
+      (pins MBCI_VIDEO1-3 MBCI_0-22)
+    )
+    (net RED_V
+      (pins MBCI_VIDEO1-1 MBCI_0-20)
+    )
+    (net "unconnected-(MBCI_0-PD3-Pad13)"
+      (pins MBCI_0-13)
+    )
+    (net "unconnected-(MBCI_0-VREFA{slash}PD7-Pad17)"
+      (pins MBCI_0-17)
+    )
+    (net DAT2_N
+      (pins MBCI_NETWORK1-3 MBCI_0-1)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_13-Pad13)"
+      (pins MBCI_IO1-13)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_5-Pad5)"
+      (pins MBCI_IO1-5)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_14-Pad14)"
+      (pins MBCI_IO1-14)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_6-Pad6)"
+      (pins MBCI_IO1-6)
+    )
+    (net 3.3V
+      (pins MBCI_VIDEO1-8 MBCI_NETWORK1-8 MBCI_IO1-8)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_9-Pad9)"
+      (pins MBCI_IO1-9)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_10-Pad10)"
+      (pins MBCI_IO1-10)
+    )
+    (net CLK
+      (pins MBCI_VIDEO1-11 MBCI_NETWORK1-11 MBCI_IO1-11)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_7-Pad7)"
+      (pins MBCI_IO1-7)
+    )
+    (net "unconnected-(MBCI_IO1-Pin_12-Pad12)"
+      (pins MBCI_IO1-12)
+    )
+    (net "unconnected-(MBCI_NETWORK1-Pin_10-Pad10)"
+      (pins MBCI_NETWORK1-10)
+    )
+    (net "unconnected-(MBCI_NETWORK1-Pin_9-Pad9)"
+      (pins MBCI_NETWORK1-9)
+    )
+    (net "unconnected-(MBCI_NETWORK1-Pin_13-Pad13)"
+      (pins MBCI_NETWORK1-13)
+    )
+    (net "unconnected-(MBCI_NETWORK1-Pin_7-Pad7)"
+      (pins MBCI_NETWORK1-7)
+    )
+    (net "unconnected-(MBCI_NETWORK1-Pin_14-Pad14)"
+      (pins MBCI_NETWORK1-14)
+    )
+    (net "unconnected-(MBCI_NETWORK1-Pin_12-Pad12)"
+      (pins MBCI_NETWORK1-12)
+    )
+    (net "unconnected-(MBCI_VIDEO1-Pin_12-Pad12)"
+      (pins MBCI_VIDEO1-12)
+    )
+    (net "unconnected-(MBCI_VIDEO1-Pin_13-Pad13)"
+      (pins MBCI_VIDEO1-13)
+    )
+    (net "unconnected-(MBCI_VIDEO1-Pin_7-Pad7)"
+      (pins MBCI_VIDEO1-7)
+    )
+    (net "unconnected-(MBCI_VIDEO1-Pin_10-Pad10)"
+      (pins MBCI_VIDEO1-10)
+    )
+    (net "unconnected-(MBCI_VIDEO1-Pin_14-Pad14)"
+      (pins MBCI_VIDEO1-14)
+    )
+    (net "unconnected-(MBCI_VIDEO1-Pin_9-Pad9)"
+      (pins MBCI_VIDEO1-9)
+    )
+    (class kicad_default "" +3.3V 3.3V A0 A1 "A10{slash}AP" A11 "A12{slash}BC_N"
+      A13 A14 A2 A3 A4 A5 A6 A7 A8 A9 ALPHA_V AVAIL_N BLUE_V CLK CMD_F1 CMD_F2
+      CONN_NMI_N CTS1 DAT0_N DAT1_N DAT2_N DAT3_N DAT4_N DCD1 DQ00 DQ01 DQ02
+      DQ03 DQ04 DQ05 DQ06 DQ07 DQ08 DQ09 DQ10 DQ11 DQ12 DQ13 DQ14 DQ15 DTR1
+      GND GREEN_V GSM_GPIO_0 GSM_GPIO_1 GSM_IO GSM_RST GSM_STATUS GSM_VPP
+      HSYNC_V LDM_RAM MCU_PWR "Net-(ANT1-A)" "Net-(BRIDGE_CHIP1-GND-Pad14)"
+      "Net-(CPU_1A-GND)" "Net-(CPU_1A-SVREF)" "Net-(CPU_GND_VDDQ1-Pad2)" "Net-(D1-A)"
+      "Net-(DDR_RAM1-VDD-PadB2)" "Net-(DDR_RAM1-VREFCA)" "Net-(DDR_RAM1-VREFDQ)"
+      "Net-(DDR_RAM1-VSS-PadA9)" "Net-(DDR_RAM1-VSSQ-PadB1)" "Net-(FLASH_MEM_MASS1-VDD)"
+      "Net-(FLASH_MEM_MASS1-VSS)" "Net-(FLASH_MEM_OS1-VDD)" "Net-(FLASH_MEM_OS1-VSS)"
+      "Net-(GND_R1-Pad2)" "Net-(J1-PadS)" "Net-(MBCI_0-AGND)" "Net-(MBCI_0-GND-Pad29)"
+      "Net-(POWER_USB_C1-CC1)" "Net-(POWER_USB_C1-CC2)" "Net-(SD_SLOT_1-VDD)"
       "Net-(SD_SLOT_1-VSS)" "Net-(SIM_CHIP1-NETLIGHT)" "Net-(SIM_CHIP1-VBAT-Pad34)"
       "Net-(SIM_CHIP1-VDD_3V3)" "Net-(SIM_SLOT_1-GND)" "Net-(SIM_SLOT_1-VCC)"
       PWR_TST RAM_BA0 RAM_BA1 RAM_BA2 RAM_CAS_N RAM_CK RAM_CKE RAM_CK_N RAM_CS_N
       RAM_LDQS RAM_LDQS_N RAM_ODT RAM_RAS_N RAM_RST RAM_UDQS RAM_UDQS_N RAM_WE_N
-      RESET RI1 RTC_IN RTC_OUT RTS1 RX1 RX2 SD0_F1 SD0_F2 SD1_F1 SD1_F2 SD2_F1
-      SD2_F2 SD3_F1 SD3_F2 SD_CD_OR_DAT3 SD_CMD SD_DAT0 SD_DAT1 SD_DAT2 SND_IN
-      TX1 TX2 UBOOT UDM_RAM VBUS_USBC VDD VREFCA VREFDQ VSSQ ZQ "unconnected-(BRIDGE_CHIP1-DM-Pad59)"
-      "unconnected-(BRIDGE_CHIP1-DP-Pad60)" "unconnected-(BRIDGE_CHIP1-VDDOUT-Pad3)"
-      "unconnected-(CPU_1A-AGND-Pad79)" "unconnected-(CPU_1A-DDR3_DM0-Pad29)"
-      "unconnected-(CPU_1A-DDR3_DM1-Pad28)" "unconnected-(CPU_1A-HPBP-Pad75)"
-      "unconnected-(CPU_1A-HPCOM-Pad77)" "unconnected-(CPU_1A-HPOUTL-Pad74)"
-      "unconnected-(CPU_1A-HPOUTR-Pad78)" "unconnected-(CPU_1A-UDM0-Pad93)"
-      "unconnected-(CPU_1A-UDM1-Pad95)" "unconnected-(CPU_1A-UDP0-Pad94)"
-      "unconnected-(CPU_1A-UDP1-Pad96)" "unconnected-(CPU_1A-VRA1-Pad83)"
-      "unconnected-(CPU_1A-VRA2-Pad82)" "unconnected-(CPU_1A-VRP-Pad80)" "unconnected-(DDR_RAM1-NC-PadJ1)"
-      "unconnected-(DDR_RAM1-NC-PadJ9)" "unconnected-(DDR_RAM1-NC-PadL1)"
-      "unconnected-(DDR_RAM1-NC-PadL9)" "unconnected-(DDR_RAM1-NC-PadM7)"
-      "unconnected-(GPU_1B-CSI_D0{slash}SDC2_D0{slash}PE4-Pad118)" "unconnected-(GPU_1B-CSI_D1{slash}SDC2_D1{slash}PE5-Pad119)"
-      "unconnected-(GPU_1B-CSI_D2{slash}SDC2_D2{slash}PE6-Pad120)" "unconnected-(GPU_1B-CSI_D3{slash}SDC2_D3{slash}PE7-Pad121)"
-      "unconnected-(GPU_1B-CSI_D4{slash}SDC2_CMD{slash}PE8-Pad122)" "unconnected-(GPU_1B-CSI_D5{slash}SDC2_CLK{slash}PE9-Pad123)"
-      "unconnected-(GPU_1B-CSI_D6{slash}UART1_TX{slash}PE10-Pad124)" "unconnected-(GPU_1B-CSI_D7{slash}UART1_RX{slash}PE11-Pad125)"
-      "unconnected-(GPU_1B-CSI_HSYNC{slash}SPI2_MOSI{slash}PE2-Pad116)" "unconnected-(GPU_1B-CSI_MCLK{slash}SPI2_CLK{slash}EINT15{slash}PE1-Pad115)"
+      RED_V RESET RI1 RTC_IN RTC_OUT RTS1 RX1 RX2 SD0_F1 SD0_F2 SD1_F1 SD1_F2
+      SD2_F1 SD2_F2 SD3_F1 SD3_F2 SD_CD_OR_DAT3 SD_CMD SD_DAT0 SD_DAT1 SD_DAT2
+      SND_IN TX1 TX2 UBOOT UDM_RAM VBUS_USBC VDD VREFCA VREFDQ VSSQ VSYNC_V
+      ZQ "unconnected-(BRIDGE_CHIP1-DM-Pad59)" "unconnected-(BRIDGE_CHIP1-DP-Pad60)"
+      "unconnected-(BRIDGE_CHIP1-VDDOUT-Pad3)" "unconnected-(CPU_1A-AGND-Pad79)"
+      "unconnected-(CPU_1A-DDR3_DM0-Pad29)" "unconnected-(CPU_1A-DDR3_DM1-Pad28)"
+      "unconnected-(CPU_1A-HPBP-Pad75)" "unconnected-(CPU_1A-HPCOM-Pad77)"
+      "unconnected-(CPU_1A-HPOUTL-Pad74)" "unconnected-(CPU_1A-HPOUTR-Pad78)"
+      "unconnected-(CPU_1A-UDM0-Pad93)" "unconnected-(CPU_1A-UDM1-Pad95)"
+      "unconnected-(CPU_1A-UDP0-Pad94)" "unconnected-(CPU_1A-UDP1-Pad96)"
+      "unconnected-(CPU_1A-VRA1-Pad83)" "unconnected-(CPU_1A-VRA2-Pad82)"
+      "unconnected-(CPU_1A-VRP-Pad80)" "unconnected-(DDR_RAM1-NC-PadJ1)" "unconnected-(DDR_RAM1-NC-PadJ9)"
+      "unconnected-(DDR_RAM1-NC-PadL1)" "unconnected-(DDR_RAM1-NC-PadL9)"
+      "unconnected-(DDR_RAM1-NC-PadM7)" "unconnected-(GPU_1B-CSI_D0{slash}SDC2_D0{slash}PE4-Pad118)"
+      "unconnected-(GPU_1B-CSI_D1{slash}SDC2_D1{slash}PE5-Pad119)" "unconnected-(GPU_1B-CSI_D2{slash}SDC2_D2{slash}PE6-Pad120)"
+      "unconnected-(GPU_1B-CSI_D3{slash}SDC2_D3{slash}PE7-Pad121)" "unconnected-(GPU_1B-CSI_D4{slash}SDC2_CMD{slash}PE8-Pad122)"
+      "unconnected-(GPU_1B-CSI_D5{slash}SDC2_CLK{slash}PE9-Pad123)" "unconnected-(GPU_1B-CSI_D6{slash}UART1_TX{slash}PE10-Pad124)"
+      "unconnected-(GPU_1B-CSI_D7{slash}UART1_RX{slash}PE11-Pad125)" "unconnected-(GPU_1B-CSI_HSYNC{slash}SPI2_MOSI{slash}PE2-Pad116)"
+      "unconnected-(GPU_1B-CSI_MCLK{slash}SPI2_CLK{slash}EINT15{slash}PE1-Pad115)"
       "unconnected-(GPU_1B-CSI_PCLK{slash}SPI2_CS0{slash}EINT14{slash}PE0-Pad114)"
       "unconnected-(GPU_1B-CSI_VSYNC{slash}SPI2_MISO{slash}PE3-Pad117)" "unconnected-(GPU_1B-LCD_CLK{slash}PD24-Pad129)"
       "unconnected-(GPU_1B-LCD_D10{slash}PD10-Pad141)" "unconnected-(GPU_1B-LCD_D11{slash}PD11-Pad140)"
@@ -2186,10 +2460,22 @@
       "unconnected-(GPU_1B-SDC0_D0{slash}PF1-Pad108)" "unconnected-(GPU_1B-SDC0_D1{slash}PF0-Pad107)"
       "unconnected-(GPU_1B-SDC0_D2{slash}PF5-Pad113)" "unconnected-(GPU_1B-SDC0_D3{slash}PF4-Pad112)"
       "unconnected-(GPU_1B-TWI0-SCK{slash}PB0-Pad101)" "unconnected-(GPU_1B-TWI0-SDA{slash}PB1-Pad102)"
-      "unconnected-(J2-Pin_10-Pad10)" "unconnected-(J2-Pin_11-Pad11)" "unconnected-(J2-Pin_12-Pad12)"
-      "unconnected-(J2-Pin_13-Pad13)" "unconnected-(J2-Pin_14-Pad14)" "unconnected-(J2-Pin_15-Pad15)"
-      "unconnected-(J2-Pin_5-Pad5)" "unconnected-(J2-Pin_6-Pad6)" "unconnected-(J2-Pin_7-Pad7)"
-      "unconnected-(J2-Pin_8-Pad8)" "unconnected-(J2-Pin_9-Pad9)" "unconnected-(POWER_USB_C1-SHIELD-PadS1)"
+      "unconnected-(MBCI_0-PA6-Pad4)" "unconnected-(MBCI_0-PA7-Pad5)" "unconnected-(MBCI_0-PC0-Pad6)"
+      "unconnected-(MBCI_0-PD1-Pad11)" "unconnected-(MBCI_0-PD2-Pad12)" "unconnected-(MBCI_0-PD3-Pad13)"
+      "unconnected-(MBCI_0-PD4-Pad14)" "unconnected-(MBCI_0-PD5-Pad15)" "unconnected-(MBCI_0-PD6-Pad16)"
+      "unconnected-(MBCI_0-PF3-Pad23)" "unconnected-(MBCI_0-PF4-Pad24)" "unconnected-(MBCI_0-PF5-Pad25)"
+      "unconnected-(MBCI_0-UPDI-Pad27)" "unconnected-(MBCI_0-VDDIO2-Pad10)"
+      "unconnected-(MBCI_0-VREFA{slash}PD7-Pad17)" "unconnected-(MBCI_IO1-Pin_10-Pad10)"
+      "unconnected-(MBCI_IO1-Pin_12-Pad12)" "unconnected-(MBCI_IO1-Pin_13-Pad13)"
+      "unconnected-(MBCI_IO1-Pin_14-Pad14)" "unconnected-(MBCI_IO1-Pin_5-Pad5)"
+      "unconnected-(MBCI_IO1-Pin_6-Pad6)" "unconnected-(MBCI_IO1-Pin_7-Pad7)"
+      "unconnected-(MBCI_IO1-Pin_9-Pad9)" "unconnected-(MBCI_NETWORK1-Pin_10-Pad10)"
+      "unconnected-(MBCI_NETWORK1-Pin_12-Pad12)" "unconnected-(MBCI_NETWORK1-Pin_13-Pad13)"
+      "unconnected-(MBCI_NETWORK1-Pin_14-Pad14)" "unconnected-(MBCI_NETWORK1-Pin_7-Pad7)"
+      "unconnected-(MBCI_NETWORK1-Pin_9-Pad9)" "unconnected-(MBCI_VIDEO1-Pin_10-Pad10)"
+      "unconnected-(MBCI_VIDEO1-Pin_12-Pad12)" "unconnected-(MBCI_VIDEO1-Pin_13-Pad13)"
+      "unconnected-(MBCI_VIDEO1-Pin_14-Pad14)" "unconnected-(MBCI_VIDEO1-Pin_7-Pad7)"
+      "unconnected-(MBCI_VIDEO1-Pin_9-Pad9)" "unconnected-(POWER_USB_C1-SHIELD-PadS1)"
       "unconnected-(POWER_USB_C1-SHIELD-PadS1)_0" "unconnected-(POWER_USB_C1-SHIELD-PadS1)_1"
       "unconnected-(POWER_USB_C1-SHIELD-PadS1)_2" "unconnected-(SD_SLOT_1-SHIELD-Pad9)"
       "unconnected-(SIM_CHIP1-NC-Pad20)" "unconnected-(SIM_CHIP1-RTC_GPIO0-Pad11)"
@@ -2203,7 +2489,7 @@
       "unconnected-(SIM_SLOT_1-PadSH)_5" "unconnected-(SIM_SLOT_1-PadSH)_6"
       "unconnected-(SIM_SLOT_1-PadSH)_7" "unconnected-(SIM_SLOT_1-PadSH)_8"
       (circuit
-        (use_via Via[0-1]_600:300_um)
+        (use_via Via[0-3]_600:300_um)
       )
       (rule
         (width 200)

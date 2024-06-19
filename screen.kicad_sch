@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(rectangle
 		(start 13.97 15.24)
-		(end 166.37 193.04)
+		(end 167.64 196.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -23,8 +23,8 @@
 		(uuid 61d98dd8-d036-48a8-bd97-9398f5f8b407)
 	)
 	(rectangle
-		(start 170.18 22.86)
-		(end 275.59 154.94)
+		(start 170.18 16.51)
+		(end 281.94 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -34,24 +34,24 @@
 		)
 		(uuid 7727da93-69fa-45a4-acd5-382a8fc485c1)
 	)
-	(text "ScreenBridge\n"
-		(exclude_from_sim no)
-		(at 180.594 30.226 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4ebe0561-5106-4045-8401-6a7133f91326")
-	)
 	(text "Touchscreen"
 		(exclude_from_sim no)
-		(at 21.336 22.098 0)
+		(at 39.878 21.59 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5.08 5.08)
 			)
 		)
 		(uuid "8d81f75f-742e-468e-9e91-24273e592313")
+	)
+	(text "MBCI PORTS"
+		(exclude_from_sim no)
+		(at 195.326 23.876 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "dfd39e70-5f81-4c08-9bde-5d9fc1d722fd")
 	)
 )

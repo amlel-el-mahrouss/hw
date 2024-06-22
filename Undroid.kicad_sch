@@ -13290,6 +13290,16 @@
 		)
 		(uuid "bb899633-c1e1-437e-9ddb-dc5963d30a26")
 	)
+	(text "NOT HERE!"
+		(exclude_from_sim yes)
+		(at 373.38 108.204 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "bc6c8685-f0db-494f-a1c3-73f07b3b4891")
+	)
 	(text "DDR3 RAM"
 		(exclude_from_sim yes)
 		(at 444.246 219.456 0)

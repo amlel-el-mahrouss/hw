@@ -1,4 +1,4 @@
-(pcb C:\Users\amlal\softwarelabs\zeta-board\freerouting.dsn
+(pcb "C:\Users\amlal\softwarelabs\zeta-board\temp-freerouting.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)

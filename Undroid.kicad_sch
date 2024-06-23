@@ -10891,6 +10891,10 @@
 		(uuid "0f5993e7-5b7a-4db4-881e-2f5b32cbe618")
 	)
 	(no_connect
+		(at 66.04 67.31)
+		(uuid "15e73b2b-dcd0-437f-ae6f-306dc82bc9f9")
+	)
+	(no_connect
 		(at 245.11 292.1)
 		(uuid "1629d34d-b681-4288-aecb-79acc3f128ab")
 	)
@@ -10939,10 +10943,6 @@
 		(uuid "3245e4c2-5427-47c4-97fb-f2aad678b515")
 	)
 	(no_connect
-		(at 45.72 102.87)
-		(uuid "330f09da-d0d7-4fc5-bca9-5209288683f7")
-	)
-	(no_connect
 		(at 538.48 83.82)
 		(uuid "3c87aa9b-3c77-4bc3-ba58-77e969dffb0e")
 	)
@@ -10983,10 +10983,6 @@
 		(uuid "5ae2b358-479e-41d2-8325-92b97d71324a")
 	)
 	(no_connect
-		(at 260.35 386.08)
-		(uuid "5bcc9566-3bda-45c5-8536-1a98bba31e70")
-	)
-	(no_connect
 		(at 195.58 227.33)
 		(uuid "608ef86a-e3b4-4e75-a3b2-de51f10fa10d")
 	)
@@ -11013,10 +11009,6 @@
 	(no_connect
 		(at 245.11 386.08)
 		(uuid "75704c2e-0183-4351-bc17-bc38457b36e2")
-	)
-	(no_connect
-		(at 262.89 386.08)
-		(uuid "7612f41c-2a03-4433-af59-78dbfa0b5706")
 	)
 	(no_connect
 		(at 467.36 165.1)
@@ -11383,16 +11375,6 @@
 			(type default)
 		)
 		(uuid "24e262fa-5582-4daf-a59f-0283366efb76")
-	)
-	(wire
-		(pts
-			(xy 62.23 57.15) (xy 62.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2511db46-decc-43a6-abd5-c378b98ebca1")
 	)
 	(wire
 		(pts
@@ -11776,16 +11758,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 66.04 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c54a890-9b68-462a-a7e6-ff24db229e74")
-	)
-	(wire
-		(pts
 			(xy 140.97 229.87) (xy 140.97 232.41)
 		)
 		(stroke
@@ -11833,6 +11805,16 @@
 			(type default)
 		)
 		(uuid "5eddb6ae-c594-4c43-858b-c0bcf1b6bd14")
+	)
+	(wire
+		(pts
+			(xy 40.64 102.87) (xy 45.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe64191-256e-45df-b18c-0e64b1c85eaf")
 	)
 	(wire
 		(pts
@@ -12226,16 +12208,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 60.96) (xy 66.04 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b9f9c39-77c3-4bc1-9a9d-0f9671178447")
-	)
-	(wire
-		(pts
 			(xy 107.95 298.45) (xy 113.03 298.45)
 		)
 		(stroke
@@ -12273,16 +12245,6 @@
 			(type default)
 		)
 		(uuid "95efbab3-94ee-4d57-91ef-28b0a3ecf84f")
-	)
-	(wire
-		(pts
-			(xy 62.23 46.99) (xy 62.23 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ded641-47fc-4aca-bb25-b5f0cf6cb68b")
 	)
 	(wire
 		(pts
@@ -12386,7 +12348,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 100.33) (xy 45.72 100.33)
+			(xy 40.64 100.33) (xy 45.72 100.33)
 		)
 		(stroke
 			(width 0)
@@ -13310,7 +13272,7 @@
 		)
 		(uuid "c513c623-8de6-4bda-ad14-77ab04480fb1")
 	)
-	(text "GPRS Modem"
+	(text "LTE module"
 		(exclude_from_sim yes)
 		(at 132.08 26.924 0)
 		(effects
@@ -13490,6 +13452,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GSM_PWR_N"
+		(shape input)
+		(at 262.89 386.08 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0aeb2238-7fea-4d50-841e-62a600c8a1f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 371.9068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13688,28 +13672,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS_USBC"
-		(shape output)
-		(at 62.23 46.99 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "166c9a66-8d28-4244-b0ea-7ef3f59c9c9e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 33.0586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -15144,6 +15106,28 @@
 			)
 		)
 	)
+	(global_label "GSM_RST_N"
+		(shape input)
+		(at 260.35 386.08 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54439649-f5cf-461e-b65f-9d1db55b7ba1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 372.4511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_DAT1"
 		(shape input)
 		(at 153.67 356.87 180)
@@ -15294,6 +15278,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GSM_PWR_N"
+		(shape input)
+		(at 40.64 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "595a14a6-e982-4a3e-8492-0a56baec3263")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.4668 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -18642,6 +18648,28 @@
 			)
 		)
 	)
+	(global_label "GSM_RST_N"
+		(shape input)
+		(at 40.64 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec188ace-a084-4737-8b04-7253b47c4eb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.0111 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RTC_OUT"
 		(shape input)
 		(at 538.48 101.6 0)
@@ -21343,73 +21371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5de50f94-6ab4-4781-9021-3aaa41960caf")
-		(property "Reference" "#PWR062"
-			(at 24.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9af5fc2e-542d-499b-8852-d1067b2b7e90")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
 		(at 48.26 215.9 90)
 		(unit 1)
@@ -22026,76 +21987,6 @@
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 62.23 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e17f371-bf13-4ca5-8865-97242f5ad616")
-		(property "Reference" "R_VDD_3V3"
-			(at 64.77 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 64.77 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 60.452 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85020bca-3a7c-439a-81df-7dff28a54de2")
-		)
-		(pin "2"
-			(uuid "e9aa3753-38e4-4388-87e1-93b4bd9d2815")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "R_VDD_3V3")
 					(unit 1)
 				)
 			)

@@ -5,10 +5,10 @@
 	(uuid "5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852")
 	(paper "A2")
 	(title_block
-		(title "Phone motherboard")
+		(title "ZETA-0001")
 		(date "2024-06-19")
 		(rev "10")
-		(company "Zeta")
+		(company "Radio Corporation of Morocco")
 	)
 	(lib_symbols
 		(symbol "Allwinner:Allwinner-A13"
@@ -13085,7 +13085,7 @@
 		(uuid c68b6e3e-64e7-4f64-93d7-6e3ae0d078c7)
 	)
 	(rectangle
-		(start 473.71 210.82)
+		(start 473.71 209.55)
 		(end 580.39 373.38)
 		(stroke
 			(width 0)
@@ -13192,7 +13192,7 @@
 		)
 		(uuid "49be22a3-2ff7-42e8-9b74-d695062918da")
 	)
-	(text "Iteration 2\nwill have MBCI support"
+	(text "Iteration 2\nwill have MBCI support."
 		(exclude_from_sim yes)
 		(at 373.126 183.388 0)
 		(effects
@@ -13202,9 +13202,9 @@
 		)
 		(uuid "52f681e8-d80f-4777-9c9a-f81dbc0bb06f")
 	)
-	(text "ARM CPU of SoC"
+	(text "Modified Allwinner CPU"
 		(exclude_from_sim yes)
-		(at 482.6 31.496 0)
+		(at 503.682 29.718 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -13251,16 +13251,6 @@
 			)
 		)
 		(uuid "bb899633-c1e1-437e-9ddb-dc5963d30a26")
-	)
-	(text "NOT HERE!"
-		(exclude_from_sim yes)
-		(at 373.38 108.204 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "bc6c8685-f0db-494f-a1c3-73f07b3b4891")
 	)
 	(text "DDR3 RAM"
 		(exclude_from_sim yes)

@@ -8,7 +8,7 @@
 		(title "ZETA-0001")
 		(date "2024-06-19")
 		(rev "10")
-		(company "Radio Corporation of Morocco")
+		(company "Zeta Electronics NV")
 	)
 	(lib_symbols
 		(symbol "Allwinner:Allwinner-A13"
@@ -5272,7 +5272,7 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
+		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -5289,7 +5289,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized"
+			(property "Value" "C"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -5316,7 +5316,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5334,7 +5334,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5343,12 +5343,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -5357,41 +5358,18 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "C_Polarized_1_1"
+			(symbol "C_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -11608,7 +11586,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 284.48) (xy 123.19 284.48)
+			(xy 144.78 284.48) (xy 123.19 284.48)
 		)
 		(stroke
 			(width 0)
@@ -12058,7 +12036,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 394.97) (xy 388.62 393.7)
+			(xy 401.32 394.97) (xy 401.32 393.7)
 		)
 		(stroke
 			(width 0)
@@ -12458,7 +12436,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 393.7) (xy 388.62 393.7)
+			(xy 381 393.7) (xy 401.32 393.7)
 		)
 		(stroke
 			(width 0)
@@ -12538,7 +12516,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 378.46) (xy 359.41 378.46)
+			(xy 335.28 378.46) (xy 359.41 378.46)
 		)
 		(stroke
 			(width 0)
@@ -12738,16 +12716,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 281.94) (xy 135.89 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfcbd374-58b6-4ede-87fc-d59575ba3842")
-	)
-	(wire
-		(pts
 			(xy 55.88 200.66) (xy 62.23 200.66)
 		)
 		(stroke
@@ -12888,7 +12856,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 383.54) (xy 347.98 378.46)
+			(xy 335.28 394.97) (xy 335.28 378.46)
 		)
 		(stroke
 			(width 0)
@@ -19947,7 +19915,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 152.4 267.97 90)
 			(effects
 				(font
@@ -20081,7 +20049,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 109.22 106.68 90)
 			(effects
 				(font
@@ -20215,7 +20183,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 119.38 342.9 90)
 			(effects
 				(font
@@ -20283,7 +20251,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 97.79 347.98 90)
 			(effects
 				(font
@@ -20775,7 +20743,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 148.59 318.77 90)
 			(effects
 				(font
@@ -20910,7 +20878,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 147.32 226.06 90)
 			(effects
 				(font
@@ -20978,7 +20946,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 337.82 283.21 90)
 			(effects
 				(font
@@ -21530,7 +21498,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 130.81 200.66 90)
 			(effects
 				(font
@@ -21599,7 +21567,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 125.73 280.6699 0)
 			(effects
 				(font
@@ -22001,7 +21969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 383.54 387.3499 0)
 			(effects
 				(font
@@ -22047,76 +22015,6 @@
 			(project "Undroid"
 				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
 					(reference "RAM_GND_VSSQ_R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 566.42 294.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eb75d17-e4f8-44d4-adb1-14fb9b10dbdb")
-		(property "Reference" "C1"
-			(at 570.23 292.4809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 570.23 295.0209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
-			(at 567.3852 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 566.42 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 566.42 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d510130d-1b00-400e-ad52-02cc76858fd4")
-		)
-		(pin "2"
-			(uuid "8f3beb7b-8f9d-4966-8508-2b5fbb7b765a")
-		)
-		(instances
-			(project "Undroid"
-				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -22340,7 +22238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 255.27 176.5299 0)
 			(effects
 				(font
@@ -22393,7 +22291,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 347.98 383.54 180)
+		(at 335.28 394.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22402,7 +22300,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bd3528b-7525-4fcd-ab42-e1e1a67014cd")
 		(property "Reference" "#FLG013"
-			(at 347.98 385.445 0)
+			(at 335.28 396.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22411,7 +22309,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 347.98 388.62 0)
+			(at 335.28 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22419,7 +22317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 383.54 0)
+			(at 335.28 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22428,7 +22326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 383.54 0)
+			(at 335.28 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22437,7 +22335,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 347.98 383.54 0)
+			(at 335.28 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22583,7 +22481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 55.88 196.8499 0)
 			(effects
 				(font
@@ -22702,7 +22600,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 388.62 394.97 180)
+		(at 401.32 394.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22711,7 +22609,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ece16c8-fb56-4f5c-8fe0-d60449965f15")
 		(property "Reference" "#FLG014"
-			(at 388.62 396.875 0)
+			(at 401.32 396.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22720,7 +22618,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 388.62 400.05 0)
+			(at 401.32 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22728,7 +22626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 388.62 394.97 0)
+			(at 401.32 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22737,7 +22635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 394.97 0)
+			(at 401.32 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22746,7 +22644,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 388.62 394.97 0)
+			(at 401.32 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23117,7 +23015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 81.28 54.6099 0)
 			(effects
 				(font
@@ -23656,7 +23554,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 135.89 281.94 0)
+		(at 144.78 284.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23665,7 +23563,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ed6c58a-7c71-4556-b6fd-fda5c3971d11")
 		(property "Reference" "#FLG07"
-			(at 135.89 280.035 0)
+			(at 146.685 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23674,15 +23572,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 135.89 276.86 0)
+			(at 148.59 284.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 281.94 0)
+			(at 144.78 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23691,7 +23590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 281.94 0)
+			(at 144.78 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23700,7 +23599,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 135.89 281.94 0)
+			(at 144.78 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24027,7 +23926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 30.48 302.2599 0)
 			(effects
 				(font
@@ -24162,7 +24061,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 66.04 196.85 90)
 			(effects
 				(font
@@ -24297,7 +24196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 549.91 354.3299 0)
 			(effects
 				(font
@@ -24366,7 +24265,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 114.3 318.77 90)
 			(effects
 				(font
@@ -24567,7 +24466,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 557.53 184.15 90)
 			(effects
 				(font
@@ -24899,7 +24798,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 339.09 231.14 90)
 			(effects
 				(font
@@ -24967,7 +24866,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 495.3 251.46 90)
 			(effects
 				(font
@@ -25274,6 +25173,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 566.42 294.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d64a07d2-d7f1-4ee2-9221-44793b9cfdb2")
+		(property "Reference" "C1"
+			(at 570.23 293.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 570.23 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 567.3852 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 566.42 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 566.42 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a53ee09-deb1-4775-9837-72d7d00ab55b")
+		)
+		(pin "2"
+			(uuid "242cb945-f9be-45d6-ac6e-fa55bac7e01e")
+		)
+		(instances
+			(project "Undroid"
+				(path "/5d3a3bfa-72d2-42b8-bac3-6ac6fe44d852"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 350.52 280.67 0)
 		(unit 1)
@@ -25358,7 +25327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 361.95 391.1599 0)
 			(effects
 				(font
@@ -26009,7 +25978,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 73.66 212.09 90)
 			(effects
 				(font
@@ -26078,7 +26047,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15OR"
 			(at 46.99 281.9399 0)
 			(effects
 				(font

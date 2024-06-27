@@ -11522,7 +11522,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 350.52) (xy 402.59 337.82)
+			(xy 402.59 337.82) (xy 402.59 370.84)
 		)
 		(stroke
 			(width 0)
@@ -11949,16 +11949,6 @@
 			(type default)
 		)
 		(uuid "4353f03a-b83f-415f-8f6a-b47d338d2e71")
-	)
-	(wire
-		(pts
-			(xy 422.91 350.52) (xy 402.59 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e09ef7-4bc1-4754-af6d-d8f582a7736f")
 	)
 	(wire
 		(pts
@@ -12739,16 +12729,6 @@
 			(type default)
 		)
 		(uuid "a71a7775-b39b-4dd0-b752-dea162ee4572")
-	)
-	(wire
-		(pts
-			(xy 422.91 350.52) (xy 422.91 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7f16c53-dae4-4240-ba83-0a4517ae8c36")
 	)
 	(wire
 		(pts
@@ -24698,7 +24678,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 422.91 363.22 180)
+		(at 402.59 370.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24707,7 +24687,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba1d90e9-643c-422a-8432-7ddf987c978b")
 		(property "Reference" "#FLG016"
-			(at 422.91 365.125 0)
+			(at 402.59 372.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24716,7 +24696,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 422.91 368.3 0)
+			(at 402.59 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24724,7 +24704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 422.91 363.22 0)
+			(at 402.59 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24733,7 +24713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 422.91 363.22 0)
+			(at 402.59 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24742,7 +24722,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 422.91 363.22 0)
+			(at 402.59 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

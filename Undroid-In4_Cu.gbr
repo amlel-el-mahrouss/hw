@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
-%TF.CreationDate,2024-06-28T11:46:25+02:00*%
+%TF.CreationDate,2024-06-29T15:52:21+02:00*%
 %TF.ProjectId,Undroid,556e6472-6f69-4642-9e6b-696361645f70,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L5,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.2) date 2024-06-28 11:46:25*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-06-29 15:52:21*
 %MOMM*%
 %LPD*%
 G01*
@@ -590,7 +590,7 @@ X164391400Y-125210800D03*
 X172422300Y-114461800D03*
 X168208200Y-115140500D03*
 %TO.N,GSM_RST_N*%
-X156100000Y-143800000D03*
+X155500000Y-143500000D03*
 X174025000Y-145100000D03*
 %TO.N,Net-(MBCI_0-VDD)*%
 X167889200Y-139866500D03*

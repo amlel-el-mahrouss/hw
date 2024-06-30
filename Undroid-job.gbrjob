@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.2"
     },
-    "CreationDate": "2024-06-30T04:24:24+02:00"
+    "CreationDate": "2024-06-30T08:04:25+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Undroid",
       "GUID": "556e6472-6f69-4642-9e6b-696361645f70",
-      "Revision": "rev?"
+      "Revision": "C"
     },
     "Size": {
       "X": 61.75,

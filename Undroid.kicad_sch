@@ -20351,7 +20351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Antenna:NiceRF_SW868-TH13_868Mhz"
+		(property "Footprint" "RF_Antenna:Johanson_2450AT18x100"
 			(at 107.95 36.83 0)
 			(effects
 				(font

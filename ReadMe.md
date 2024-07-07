@@ -5,4 +5,6 @@ You need:
 
 - KiCad EDA.
 
+![Stylish preview](Undroid.png)
+
 ##### Copyright, Zeta Electronics Corporation, all rights reserved.

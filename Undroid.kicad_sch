@@ -10255,6 +10255,14 @@
 		(uuid "017115ef-e972-4016-b097-c08a31129500")
 	)
 	(no_connect
+		(at 132.08 184.15)
+		(uuid "04264e32-6dae-4591-8061-341a62fd76c3")
+	)
+	(no_connect
+		(at 548.64 295.91)
+		(uuid "0525f0f0-249e-49f5-9ac8-879221713058")
+	)
+	(no_connect
 		(at 417.83 93.98)
 		(uuid "080bfbe3-b91a-4c69-aa57-accd0e7c37a6")
 	)
@@ -10323,6 +10331,10 @@
 		(uuid "1aea16d9-60f5-4140-8454-e058f241a733")
 	)
 	(no_connect
+		(at 147.32 184.15)
+		(uuid "1d10e91a-de52-479f-b5d4-13ad0c71aadb")
+	)
+	(no_connect
 		(at 417.83 99.06)
 		(uuid "1d5f486e-1417-4269-aeac-8e46eddfd040")
 	)
@@ -10359,6 +10371,10 @@
 		(uuid "250b11e2-a695-44a6-b1f8-9211f06ede37")
 	)
 	(no_connect
+		(at 127 184.15)
+		(uuid "263f9637-912f-4d99-9604-e2890feaf286")
+	)
+	(no_connect
 		(at 417.83 111.76)
 		(uuid "2701822f-8aad-401c-a4f4-e543520650bb")
 	)
@@ -10389,6 +10405,10 @@
 	(no_connect
 		(at 257.81 292.1)
 		(uuid "3245e4c2-5427-47c4-97fb-f2aad678b515")
+	)
+	(no_connect
+		(at 137.16 184.15)
+		(uuid "385e0cd8-cf0c-4c70-ad76-4b9a6dff4441")
 	)
 	(no_connect
 		(at 538.48 83.82)
@@ -10459,6 +10479,10 @@
 		(uuid "52f59fba-21d3-4a6c-aee8-eee2520c83e9")
 	)
 	(no_connect
+		(at 124.46 184.15)
+		(uuid "54926d68-b070-4d72-9ca4-aa225beb3daf")
+	)
+	(no_connect
 		(at 227.33 137.16)
 		(uuid "57489315-eee9-4fd7-9288-47aebc19bac0")
 	)
@@ -10473,6 +10497,10 @@
 	(no_connect
 		(at 417.83 127)
 		(uuid "599a819a-bc2f-48f3-83df-17d67acf8cda")
+	)
+	(no_connect
+		(at 548.64 290.83)
+		(uuid "5a0b201a-ad37-4908-bf74-de7d6c67caa6")
 	)
 	(no_connect
 		(at 417.83 165.1)
@@ -10551,6 +10579,10 @@
 		(uuid "76a84b0c-8d37-49f6-a28a-3c8fce459f23")
 	)
 	(no_connect
+		(at 121.92 184.15)
+		(uuid "78607159-82fc-40b4-9584-a979ea491764")
+	)
+	(no_connect
 		(at 336.55 193.04)
 		(uuid "7a9ea3a9-03f7-49a3-8cb0-6824d34abb3b")
 	)
@@ -10577,6 +10609,10 @@
 	(no_connect
 		(at 417.83 182.88)
 		(uuid "83f7c65d-b565-4751-bc00-d9fb7f571ec3")
+	)
+	(no_connect
+		(at 149.86 184.15)
+		(uuid "8953eee0-0b3f-4d09-bb8b-1fc38a59d1e9")
 	)
 	(no_connect
 		(at 538.48 76.2)
@@ -10619,6 +10655,10 @@
 		(uuid "a28f9797-c9ae-43a6-b8a0-baa2e878c2bd")
 	)
 	(no_connect
+		(at 548.64 288.29)
+		(uuid "a436f204-942b-4764-85ba-6f6ca57bc44f")
+	)
+	(no_connect
 		(at 336.55 127)
 		(uuid "a5692c9a-c2ab-4594-96ab-680ae093db95")
 	)
@@ -10635,6 +10675,10 @@
 		(uuid "ab6cb761-6a56-44ab-a4f6-f2f028e739a6")
 	)
 	(no_connect
+		(at 142.24 184.15)
+		(uuid "abcbea35-f897-4db3-91ac-ddda4c196474")
+	)
+	(no_connect
 		(at 377.19 254)
 		(uuid "acbfb70d-b5f8-42bb-83b4-3e36a2faca9a")
 	)
@@ -10645,6 +10689,10 @@
 	(no_connect
 		(at 336.55 167.64)
 		(uuid "b66d09c2-1365-4e61-9e2d-75fc0709962d")
+	)
+	(no_connect
+		(at 139.7 184.15)
+		(uuid "b92118f0-d705-41bb-b09f-d340799eb207")
 	)
 	(no_connect
 		(at 336.55 109.22)
@@ -10661,6 +10709,10 @@
 	(no_connect
 		(at 185.42 227.33)
 		(uuid "c13fe8d5-05cc-45ce-b63e-dc64dfcec904")
+	)
+	(no_connect
+		(at 134.62 184.15)
+		(uuid "c1cc74b8-cefe-443e-802e-1a80bbdb62e6")
 	)
 	(no_connect
 		(at 255.27 292.1)
@@ -10689,6 +10741,10 @@
 	(no_connect
 		(at 227.33 134.62)
 		(uuid "cbc85971-0338-43d8-9cee-f7baedaaa804")
+	)
+	(no_connect
+		(at 129.54 184.15)
+		(uuid "ce492d58-5e1b-45ec-91d9-826e168df8c0")
 	)
 	(no_connect
 		(at 538.48 63.5)
@@ -10793,6 +10849,10 @@
 	(no_connect
 		(at 525.78 265.43)
 		(uuid "f6e3637e-20ec-4cb9-aeae-660ef04fcf26")
+	)
+	(no_connect
+		(at 144.78 184.15)
+		(uuid "f72affbe-a0a1-4c26-bd61-4db7b533df6c")
 	)
 	(no_connect
 		(at 336.55 154.94)
@@ -13150,28 +13210,6 @@
 			)
 		)
 	)
-	(global_label "DAT0_BT2"
-		(shape input)
-		(at 548.64 290.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e407199-ed66-475b-9cae-4c235129f5c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 560.5756 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DQ02"
 		(shape input)
 		(at 394.97 264.16 0)
@@ -13657,7 +13695,7 @@
 		)
 	)
 	(global_label "DAT3_N"
-		(shape input)
+		(shape bidirectional)
 		(at 270.51 292.1 90)
 		(fields_autoplaced yes)
 		(effects
@@ -13679,7 +13717,7 @@
 		)
 	)
 	(global_label "BT_CLK3"
-		(shape input)
+		(shape output)
 		(at 250.19 292.1 90)
 		(fields_autoplaced yes)
 		(effects
@@ -13986,28 +14024,6 @@
 			)
 		)
 	)
-	(global_label "CLK"
-		(shape input)
-		(at 256.54 340.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34437271-91ca-4ef9-a4c0-fe4102385da6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.9867 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RAM_UDQS"
 		(shape input)
 		(at 394.97 314.96 0)
@@ -14141,7 +14157,7 @@
 		)
 	)
 	(global_label "DAT2_N"
-		(shape input)
+		(shape bidirectional)
 		(at 273.05 292.1 90)
 		(fields_autoplaced yes)
 		(effects
@@ -14185,7 +14201,7 @@
 		)
 	)
 	(global_label "DAT0_BT2"
-		(shape input)
+		(shape bidirectional)
 		(at 247.65 292.1 90)
 		(fields_autoplaced yes)
 		(effects
@@ -15483,7 +15499,7 @@
 		)
 	)
 	(global_label "DAT1_BT1"
-		(shape input)
+		(shape bidirectional)
 		(at 245.11 292.1 90)
 		(fields_autoplaced yes)
 		(effects
@@ -16781,7 +16797,7 @@
 		)
 	)
 	(global_label "DAT0_N"
-		(shape input)
+		(shape bidirectional)
 		(at 278.13 292.1 90)
 		(fields_autoplaced yes)
 		(effects
@@ -16930,28 +16946,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BT_CLK3"
-		(shape input)
-		(at 548.64 295.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a400229b-5405-49c8-ba9d-19ba0aacfd84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 559.608 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -17585,28 +17579,6 @@
 		(uuid "bf98e5b1-0346-4a9c-9225-fc2c9ba74c85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.03 379.2243 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DAT1_BT1"
-		(shape input)
-		(at 548.64 288.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c01d0be2-9931-4b74-a166-fc410e92b8ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 560.5756 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18271,7 @@
 		)
 	)
 	(global_label "DAT1_N"
-		(shape input)
+		(shape bidirectional)
 		(at 275.59 292.1 90)
 		(fields_autoplaced yes)
 		(effects

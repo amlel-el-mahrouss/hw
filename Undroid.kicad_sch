@@ -10215,16 +10215,16 @@
 		(uuid "a5e8d743-e961-4299-827a-8be9ffd670a5")
 	)
 	(junction
-		(at 382.27 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce8d4724-e9c9-4b62-ac12-174fab9098eb")
-	)
-	(junction
 		(at 166.37 281.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfaa26cf-9de2-412b-9be3-237a7d4c8387")
+	)
+	(junction
+		(at 382.27 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d13fb38f-81c9-461e-bcb4-5a1e84e8644c")
 	)
 	(junction
 		(at 252.73 167.64)
@@ -11506,16 +11506,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 345.44) (xy 382.27 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eddb6ae-c594-4c43-858b-c0bcf1b6bd14")
-	)
-	(wire
-		(pts
 			(xy 40.64 102.87) (xy 45.72 102.87)
 		)
 		(stroke
@@ -11766,7 +11756,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 359.41) (xy 402.59 355.6)
+			(xy 402.59 360.68) (xy 402.59 355.6)
 		)
 		(stroke
 			(width 0)
@@ -11876,7 +11866,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 345.44) (xy 382.27 359.41)
+			(xy 382.27 345.44) (xy 382.27 360.68)
 		)
 		(stroke
 			(width 0)
@@ -12416,16 +12406,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 345.44) (xy 392.43 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f3b11d-2beb-4f0a-b50a-e5034da1ea4f")
-	)
-	(wire
-		(pts
 			(xy 86.36 72.39) (xy 107.95 72.39)
 		)
 		(stroke
@@ -12486,7 +12466,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 322.58) (xy 120.65 327.66)
+			(xy 120.65 322.58) (xy 120.65 328.93)
 		)
 		(stroke
 			(width 0)
@@ -12576,6 +12556,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 345.44) (xy 392.43 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c94983-5d9d-4a16-8f40-4e38efb9a6e0")
+	)
+	(wire
+		(pts
 			(xy 151.13 295.91) (xy 156.21 295.91)
 		)
 		(stroke
@@ -12606,7 +12596,17 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 359.41) (xy 346.71 342.9)
+			(xy 377.19 345.44) (xy 382.27 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5af9e3f-404b-45db-9302-190138be1017")
+	)
+	(wire
+		(pts
+			(xy 346.71 360.68) (xy 346.71 342.9)
 		)
 		(stroke
 			(width 0)
@@ -21408,7 +21408,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 120.65 327.66 180)
+		(at 120.65 328.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21417,7 +21417,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b72278c-88ea-408a-8967-de79e379c258")
 		(property "Reference" "#FLG02"
-			(at 120.65 329.565 0)
+			(at 120.65 330.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21426,7 +21426,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 120.65 332.74 0)
+			(at 120.65 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21434,7 +21434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 327.66 0)
+			(at 120.65 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21443,7 +21443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 327.66 0)
+			(at 120.65 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21452,7 +21452,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 120.65 327.66 0)
+			(at 120.65 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21474,7 +21474,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 382.27 359.41 180)
+		(at 382.27 360.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21483,7 +21483,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f564ac3-5023-4268-9c71-50edd038231e")
 		(property "Reference" "#FLG04"
-			(at 382.27 361.315 0)
+			(at 382.27 362.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21492,7 +21492,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 382.27 364.49 0)
+			(at 382.27 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21500,7 +21500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 359.41 0)
+			(at 382.27 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21509,7 +21509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 359.41 0)
+			(at 382.27 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21518,7 +21518,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 382.27 359.41 0)
+			(at 382.27 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22349,7 +22349,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 346.71 359.41 180)
+		(at 346.71 360.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22358,7 +22358,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bd3528b-7525-4fcd-ab42-e1e1a67014cd")
 		(property "Reference" "#FLG013"
-			(at 346.71 361.315 0)
+			(at 346.71 362.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22367,7 +22367,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 346.71 364.49 0)
+			(at 346.71 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22375,7 +22375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 359.41 0)
+			(at 346.71 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22384,7 +22384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 359.41 0)
+			(at 346.71 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22393,7 +22393,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 346.71 359.41 0)
+			(at 346.71 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22588,7 +22588,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 402.59 359.41 180)
+		(at 402.59 360.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22597,7 +22597,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ece16c8-fb56-4f5c-8fe0-d60449965f15")
 		(property "Reference" "#FLG014"
-			(at 402.59 361.315 0)
+			(at 402.59 362.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22606,7 +22606,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 402.59 364.49 0)
+			(at 402.59 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22614,7 +22614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 402.59 359.41 0)
+			(at 402.59 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22623,7 +22623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 402.59 359.41 0)
+			(at 402.59 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22632,7 +22632,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 402.59 359.41 0)
+			(at 402.59 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

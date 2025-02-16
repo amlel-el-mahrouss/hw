@@ -7,4 +7,4 @@ You need:
 
 ![Stylish preview](Undroid.png)
 
-##### Copyright, Zeta Electronics Corporation, all rights reserved.
+##### Copyright, Amlal El Mahrouss, all rights reserved.
